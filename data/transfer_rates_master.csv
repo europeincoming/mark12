@@ -1,0 +1,56 @@
+country,city,from,to,currency,rate_eclass_pi,rate_pp_eclass
+United Kingdom,London,LHR Airport,Central Hotel or v/v,GBP,105.6,52.8
+United Kingdom,London,LGW Airport,Central Hotel or v/v,GBP,157.0,78.5
+United Kingdom,London,Train Station,Central Hotel or v/v,GBP,107.1,53.55
+United Kingdom,Edinburgh,EDI Airport,Central Hotel or v/v,GBP,120.0,60.0
+United Kingdom,Edinburgh,Train Station,Central Hotel or v/v,GBP,90.0,45.0
+Ireland,Dublin,DUB Airport,Central Hotel or v/v,EUR,95.0,47.5
+Ireland,Dublin,Train Station,Central Hotel or v/v,EUR,95.0,47.5
+Spain,Barcelona,BCN Airport,Central Hotel or v/v,EUR,82.5,41.25
+Spain,Barcelona,Train Station,Central Hotel or v/v,EUR,121.0,60.5
+Spain,Madrid,MAD Airport,Central Hotel or v/v,EUR,100.1,50.05
+Spain,Madrid,Train Station,Central Hotel or v/v,EUR,100.1,50.05
+France,Paris,CDG Airport,Central Hotel or v/v,EUR,145.0,72.5
+France,Paris,Train Station,Central Hotel or v/v,EUR,105.0,52.5
+France,Nice,NCE Airport,Central Hotel or v/v,EUR,35.0,17.5
+France,Nice,Train Station,Central Hotel or v/v,EUR,35.0,17.5
+Italy,Milan,MXP Airport,Central Hotel or v/v,EUR,134.0,67.0
+Italy,Milan,Train Station,Central Hotel or v/v,EUR,66.0,33.0
+Italy,Venice,VCE Airport,Central Hotel or v/v (water taxi max 5 pax),EUR,270.0,135.0
+Italy,Venice,Train Station,Central Hotel or v/v (water taxi max 5 pax),EUR,200.0,100.0
+Italy,Florence,FLR Airport,Central Hotel or v/v,EUR,110.0,55.0
+Italy,Florence,Train Station,Central Hotel or v/v,EUR,80.0,40.0
+Italy,Rome,FCO Airport,Central Hotel or v/v,EUR,75.0,37.5
+Italy,Rome,Train Station,Central Hotel or v/v,EUR,50.0,25.0
+Switzerland,Geneva,GVA Airport,Central Hotel or v/v,EUR,120.0,60.0
+Switzerland,Geneva,Train Station,Central Hotel or v/v,EUR,120.0,60.0
+Switzerland,Zurich,ZRH Airport,Central Hotel or v/v,EUR,110.0,55.0
+Switzerland,Zurich,Train Station,Central Hotel or v/v,EUR,75.0,37.5
+Belgium,Brussels,BRU Airport,Central Hotel or v/v,EUR,90.0,45.0
+Belgium,Brussels,Train Station,Central Hotel or v/v,EUR,84.0,42.0
+Netherlands,Amsterdam,AMS Airport,Central Hotel or v/v,EUR,90.0,45.0
+Netherlands,Amsterdam,Train Station,Central Hotel or v/v,EUR,60.0,30.0
+Germany,Berlin,BER Airport,Central Hotel or v/v,EUR,150.0,75.0
+Germany,Berlin,Train Station,Central Hotel or v/v,EUR,108.0,54.0
+Germany,Munich,MUC Airport,Central Hotel or v/v,EUR,130.0,65.0
+Germany,Munich,Train Station,Central Hotel or v/v,EUR,100.0,50.0
+Austria,Innsbruck,INN Airport,Central Hotel or v/v,EUR,80.0,40.0
+Austria,Innsbruck,Train Station,Central Hotel or v/v,EUR,90.0,45.0
+Austria,Salzburg,SZG Airport,Central Hotel or v/v,EUR,95.0,47.5
+Austria,Salzburg,Train Station,Central Hotel or v/v,EUR,95.0,47.5
+Austria,Vienna,VIE Airport,Central Hotel or v/v,EUR,70.0,35.0
+Austria,Vienna,Train Station,Central Hotel or v/v,EUR,50.0,25.0
+Czech Republic,Prague,PRG Airport,Central Hotel or v/v,EUR,78.65,39.33
+Czech Republic,Prague,Train Station,Central Hotel or v/v,EUR,78.65,39.33
+Hungary,Budapest,BUD Airport,Central Hotel or v/v,EUR,55.0,27.5
+Hungary,Budapest,Train Station,Central Hotel or v/v,EUR,55.0,27.5
+Greece,Athens,ATH Airport,Central Hotel or v/v,EUR,96.0,48.0
+Greece,Athens,PIR Port,Central Hotel or v/v,EUR,107.0,53.5
+Greece,Santorini,JTR Airport,Central Hotel or v/v,EUR,80.0,40.0
+Greece,Santorini,JTR Port,Central Hotel or v/v,EUR,85.0,42.5
+Denmark,Copenhagen,CPH Airport,Central Hotel or v/v,EUR,140.0,70.0
+Norway,Oslo,OSL Airport,Central Hotel or v/v,EUR,225.0,112.5
+Norway,Bergen,BGO Airport,Central Hotel or v/v,EUR,180.0,90.0
+Sweden,Stockholm,ARN Airport,Central Hotel or v/v,EUR,132.0,66.0
+Finland,Helsinki,HEL Airport,Central Hotel or v/v,EUR,75.0,37.5
+Finland,Rovaniemi,RVN Airport,Central Hotel or v/v,EUR,60.0,30.0

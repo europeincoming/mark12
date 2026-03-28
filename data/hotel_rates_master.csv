@@ -1,0 +1,64 @@
+country,city,hotel_3star,hotel_4star,rate_type,rate_3star_pppn,rate_4star_pppn,currency
+United Kingdom,London,Hotel Montana,Hotel Riu Plaza London Victoria,PPPN,75.0,100.0,GBP
+United Kingdom,London-Heathrow,Premier Inn Heathrow Airport M4/J4,Hyatt Place London Heathrow Airport,PPPN,65.0,65.0,GBP
+United Kingdom,Manchester,Hilton Garden Inn Manchester Emirates Old Trafford,Crowne Plaza Manchester City Centre,PPPN,60.0,72.5,GBP
+United Kingdom,Edinburgh,Holiday Inn Express Edinburgh City Centre,Apex City of Edinburgh Hotel,PPPN,82.5,87.5,GBP
+United Kingdom,Inverness,Royal Highland Hotel,Blackfriars Inverness,PPPN,58.25,71.25,GBP
+United Kingdom,Glasgow,Holiday Inn Express Glasgow City Centre Riverside,Novotel Glasgow Centre,PPPN,40.0,47.5,GBP
+United Kingdom,Fort William,Premier Inn Fort William,The Garrison Hotel,PPPN,85.0,105.0,GBP
+United Kingdom,Cheltenham,Premier Inn Cheltenham North West,Leonardo Hotel Cheltenham,PPPN,70.0,85.0,GBP
+United Kingdom,Barnstaple,Premier Inn Barnstaple,The Park Hotel,PPPN,80.0,90.0,GBP
+United Kingdom,Truro,Premier Inn Truro,The Alverton,PPPN,70.0,95.0,GBP
+United Kingdom,Plymouth,Premier Inn Plymouth City,Crowne Plaza Plymouth,PPPN,70.0,80.0,GBP
+United Kingdom,Exeter,Holiday Inn Express Exeter City Centre,Mercure Exeter Southgate Hotel,PPPN,60.0,90.0,GBP
+United Kingdom,Bournemouth,Holiday Inn Bournemouth,The Cumberland Hotel,PPPN,75.0,85.0,GBP
+Ireland,Dublin,Hampton By Hilton Dublin City Centre,Riu Plaza The Gresham Dublin,PPPN,67.5,75.0,EUR
+Ireland,Limerick,Maldron Hotel Limerick,Limerick City Hotel,PPPN,77.5,95.0,EUR
+France,Paris,Hôtel Berne Opéra,Marceau Bastille,PPPN,95.0,125.0,EUR
+France,Avignon,Kyriad Avignon Palais des Papes,Mercure Avignon Gare TGV,PPPN,90.0,97.5,EUR
+France,Aix en Provence,ibis Aix-en-Provence,Boutique Hôtel Cézanne,PPPN,70.0,105.0,EUR
+France,Nice,ibis Nice Centre Gare,Mercure Nice Centre Notre-Dame,PPPN,95.0,130.0,EUR
+France,Bayeux,ibis Bayeux Port en Bessin,,PPPN,75.0,100.0,EUR
+France,Tours,Kyriad Tours Centre,,PPPN,70.0,87.5,EUR
+Switzerland,Lucerne,Boutique Hotel Karl,Altstadt Hotel Krone Apartments Luzern,PPPN,90.0,125.0,EUR
+Switzerland,Zurich,Montana Hotel,Züri by Fassbind,PPPN,105.0,130.0,EUR
+Switzerland,Zurich (3 nights),Hotel Drei Konige,,PPPN,105.0,130.0,EUR
+Switzerland,Interlaken,Hotel Lötschberg,Stella Hotel Interlaken,PPPN,70.0,75.0,EUR
+Switzerland,Montreux,Hotel Helvetie,Eden Palace Au Lac,PPPN,90.0,110.0,EUR
+Austria,Vienna,ibis Styles Wien City Hotel,arte Hotel Wien,PPPN,56.25,70.0,EUR
+Austria,Innsbruck,Basic Hotel Innsbruck,Altstadthotel Weisses Kreuz,PPPN,43.75,46.25,EUR
+Italy,Mestre Venice,Hotel Venezia Mestre,Hotel Plaza,PPPN,36.25,65.0,EUR
+Italy,Florence,Hotel Delle Nazioni,Grand Hotel Baglioni,PPPN,57.5,72.5,EUR
+Italy,Rome,Hotel Windrose,Palladium Palace,PPPN,57.5,93.75,EUR
+Italy,Naples,ibis Styles Napoli Garibaldi,Starhotels Terminus,PPPN,67.5,95.0,EUR
+Italy,Milan,43 Station Hotel,NYX Hotel Milan,PPPN,37.5,60.0,EUR
+France,Ajaccio,Holiday Inn Express Ajaccio by IHG,Best Western Plus Ajaccio Amiraute,PPPN,80.0,95.0,EUR
+France,Porto-Ota,Hôtel Cala di Sole,Hôtel Cala di Sole,PPPN,65.0,65.0,EUR
+France,Corte,Les Jardins De La Glaciere,Les Jardins De La Glaciere,PPPN,90.0,90.0,EUR
+France,Bonifacio,Best Western Hotel Du Roy D'Aragon,Best Western Hotel Du Roy D'Aragon,PPPN,95.0,95.0,EUR
+Italy,Cagliari,Italia Hotel or similar,Holiday Inn Cagliari by IHG,PPPN,62.5,85.0,EUR
+Italy,Cala Gonone,Club Esse Cala Gonone Beach Village,Club Esse Cala Gonone Beach Village,PPPN,95.0,95.0,EUR
+Italy,Alghero,Hotel Catalunya,Hotel Catalunya,PPPN,80.0,80.0,EUR
+Italy,Olbia,Hotel Martini Olbia,Hotel Martini Olbia,PPPN,90.0,90.0,EUR
+Netherlands,Amsterdam,ibis Amsterdam City West,Radisson Hotel & Suites Amsterdam South,PPPN,105.0,110.0,EUR
+Netherlands,Maastricht,,Amrâth Hotel DuCasque,PPPN,,85.0,EUR
+Belgium,Bruges,ibis Styles Brugge Centrum,Radisson Blu Hotel Bruges,PPPN,82.5,100.0,EUR
+Belgium,Brussels,Ibis Styles Brussels Centre Stephanie,NH Brussels Stéphanie,PPPN,75.0,90.0,EUR
+Spain,Madrid,Hotel Regente,Novotel Madrid City Las Ventas,PPPN,92.5,105.0,EUR
+Spain,Barcelona,Hotel HCC Regente,Mercure Barcelona Condor,PPPN,92.5,105.0,EUR
+Spain,Granada,Hotel Comfort Dauro 2,Occidental Granada,PPPN,70.0,92.5,EUR
+Spain,Seville,Hotel Derby Sevilla,Novotel Sevilla,PPPN,87.5,117.5,EUR
+Czech Republic,Prague,Hotel Merkur,Novotel Praha Wencelas Square,PPPN,62.5,73.75,EUR
+Hungary,Budapest,Ibis Styles Budapest City,NH Budapest City,PPPN,30.0,35.0,EUR
+Denmark,Copenhagen,Moxy Copenhagen Sydhavnen,Scandic Kødbyen,PPPN,97.5,125.0,EUR
+Norway,Oslo,Anker Hotel,Scandic Vulkan,PPPN,75.0,115.0,EUR
+Norway,Flam,,,PPPN,,,EUR
+Norway,Bergen,,,PPPN,,,EUR
+Sweden,Stockholm,Quality Hotel Globe,Best Western Plus Time Hotel,PPPN,87.5,110.0,EUR
+Finland,Helsinki,Scandic Hakaniemi,Scandic Simonkenttä,PPPN,70.0,100.0,EUR
+Norway,Tromsø,Scandic Grand Tromsø,Clarion Hotel The Edge,PPPN,140.0,195.0,EUR
+Sweden,Kiruna,Camp Ripan,Scandic Kiruna,PPPN,105.0,130.0,EUR
+Sweden,Abisko,Abisko Mountain Lodge,Abisko Mountain Lodge,PPPN,105.0,105.0,EUR
+Finland,Rovaniemi,,Scandic Pohjanovi,PPPN,,150.0,EUR
+Ferry,DFDS Ferry,Inside cabin with breakfast & dinner,Sea view cabin,PPPN,150.0,175.0,EUR
+Ferry,Tallink Silja Ferry,Inside cabin with breakfast & dinner,Promenade view cabin,PPPN,160.0,200.0,EUR
