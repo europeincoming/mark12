@@ -1,0 +1,286 @@
+{
+  "id": "7.1",
+  "region": "other",
+  "title": "2 Prague - 2 Vienna - 2 Budapest",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Prague",
+      "nights": 2,
+      "hotel_3star": "Hotel Merkur",
+      "hotel_4star": "Novotel Praha Wencelas Square",
+      "rate_type": "PI",
+      "rate_3star": 250.0,
+      "rate_4star": 295.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Vienna",
+      "nights": 2,
+      "hotel_3star": "ibis Styles Wien City",
+      "hotel_4star": "arte Hotel Wien",
+      "rate_type": "PI",
+      "rate_3star": 225.0,
+      "rate_4star": 285.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Budapest",
+      "nights": 2,
+      "hotel_3star": "Ibis Styles Budapest City",
+      "hotel_4star": "NH Budapest City",
+      "rate_type": "PI",
+      "rate_3star": 120.0,
+      "rate_4star": 140.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Prague airport to Prague hotel, private transfer",
+          "rate_type": "PI",
+          "rate": 98.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Grand City Tour of Prague with Prague Castle and 1 hour River Vltava cruise, 4 hrs",
+          "rate_type": "PP",
+          "rate": 54.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Prague - Vienna train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Vienna city tour with Schönbrunn Palace, 3.5 hrs",
+          "rate_type": "PP",
+          "rate": 69.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Vienna - Budapest train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Budapest Grand City Tour, 3 hrs",
+          "rate_type": "PP",
+          "rate": 35.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Budapest hotel to Budapest airport, private transfer",
+          "rate_type": "PI",
+          "rate": 65.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach for 4 hrs on Day 2 & coach on disposal from Day 3 till Day 6",
+        "rate_type": "PI",
+        "rate": 3550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach for 4 hrs on Day 2 & coach on disposal from Day 3 till Day 6",
+          "rate_type": "PI",
+          "rate": 3550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Prague guided city tour, 4 hrs",
+          "rate_type": "PI",
+          "rate": 200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Prague Castle basic circuit admission ticket",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Vienna guided city tour, 4 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Schönbrunn Palace admission ticket",
+          "rate_type": "PP",
+          "rate": 31.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Budapest guided city tour, 3 hrs",
+          "rate_type": "PI",
+          "rate": 200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Danube river cruise, 1 hr",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1060.2,
+              "4star": 1135.2
+            },
+            {
+              "pax": 10,
+              "3star": 934.1999999999999,
+              "4star": 1009.1999999999999
+            },
+            {
+              "pax": 12,
+              "3star": 850.1999999999999,
+              "4star": 925.1999999999999
+            },
+            {
+              "pax": 14,
+              "3star": 790.1999999999999,
+              "4star": 865.1999999999999
+            },
+            {
+              "pax": 16,
+              "3star": 745.1999999999999,
+              "4star": 820.1999999999999
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1104.375,
+              "4star": 1182.5
+            },
+            {
+              "pax": 10,
+              "3star": 973.125,
+              "4star": 1051.25
+            },
+            {
+              "pax": 12,
+              "3star": 885.625,
+              "4star": 963.75
+            },
+            {
+              "pax": 14,
+              "3star": 823.125,
+              "4star": 901.25
+            },
+            {
+              "pax": 16,
+              "3star": 776.25,
+              "4star": 854.375
+            }
+          ]
+        },
+        "Standard": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 971.85,
+              "4star": 1040.6000000000001
+            },
+            {
+              "pax": 10,
+              "3star": 856.35,
+              "4star": 925.1
+            },
+            {
+              "pax": 12,
+              "3star": 779.35,
+              "4star": 848.1
+            },
+            {
+              "pax": 14,
+              "3star": 724.35,
+              "4star": 793.1
+            },
+            {
+              "pax": 16,
+              "3star": 683.1,
+              "4star": 751.85
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1016.025,
+              "4star": 1087.8999999999999
+            },
+            {
+              "pax": 10,
+              "3star": 895.275,
+              "4star": 967.15
+            },
+            {
+              "pax": 12,
+              "3star": 814.775,
+              "4star": 886.65
+            },
+            {
+              "pax": 14,
+              "3star": 757.275,
+              "4star": 829.15
+            },
+            {
+              "pax": 16,
+              "3star": 714.15,
+              "4star": 786.025
+            }
+          ]
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

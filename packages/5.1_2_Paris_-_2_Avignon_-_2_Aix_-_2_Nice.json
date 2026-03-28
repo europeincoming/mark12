@@ -1,0 +1,165 @@
+{
+  "id": "5.1",
+  "region": "france",
+  "title": "2 Paris - 2 Avignon - 2 Aix - 2 Nice",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": "Marceau Bastille",
+      "rate_type": "PI",
+      "rate_3star": 296.0,
+      "rate_4star": 355.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Avignon",
+      "nights": 2,
+      "hotel_3star": "Kyriad avignon Palais des papes",
+      "hotel_4star": "Mercure Avignon Gare TGV",
+      "rate_type": "PI",
+      "rate_3star": 360.0,
+      "rate_4star": 390.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Aix en Provence",
+      "nights": 2,
+      "hotel_3star": "ibis Aix-en-Provence",
+      "hotel_4star": "Boutique Hôtel Cézanne",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 420.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Nice",
+      "nights": 2,
+      "hotel_3star": "ibis Nice Centre Gare",
+      "hotel_4star": "Mercure Nice Centre Notre-Dame",
+      "rate_type": "PI",
+      "rate_3star": 380.0,
+      "rate_4star": 520.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 140.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 9",
+        "rate_type": "PI",
+        "rate": 8550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 9",
+          "rate_type": "PI",
+          "rate": 8550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer, coach for 6 hrs",
+          "rate_type": "PI",
+          "rate": 0.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris city tour with local guide for 3 hrs, coach for 10 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hr",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Paris - Avignon train ticket, II Class + station transfers",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Paris airport to Paris hotel private transfer",
+        "rate_type": "PI",
+        "rate": 140.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Paris - Avignon train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Pickup rental car in Avignon, SUV class 5 seat car, Automatic",
+          "rate_type": "PI",
+          "rate": 750.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

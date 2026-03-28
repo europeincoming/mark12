@@ -1,0 +1,107 @@
+{
+  "id": "10.4",
+  "region": "scandinavia",
+  "title": "7 Tromso (Oslo pre/post), winter",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Tromso",
+      "nights": 7,
+      "hotel_3star": "Scandic Grand Tromsø",
+      "hotel_4star": "Clarion Hotel The Edge",
+      "rate_type": "PI",
+      "rate_3star": 1960.0,
+      "rate_4star": 2730.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Private Transfer from Tromso Airport to Hotel",
+          "rate_type": "PI",
+          "rate": 1700.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "",
+          "description": "Northern Lights Cruise",
+          "rate_type": "PP",
+          "rate": 1200.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 2",
+          "description": "Tromsø Island Tour with Arctic Cathedral",
+          "rate_type": "PP",
+          "rate": 1500.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "",
+          "description": "Night Reindeer Sledding Tour with Dinner (18h00-22h30)",
+          "rate_type": "PP",
+          "rate": 2500.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Snowmobile Safari, Approx 7h (08h30-15h30)",
+          "rate_type": "PP",
+          "rate": 2600.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Whale watching boat tour, 7 hrs",
+          "rate_type": "PP",
+          "rate": 2100.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Long Reindeer Sledding, Reindeer Feeding and Sami Culture",
+          "rate_type": "PP",
+          "rate": 2400.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 6",
+          "description": "Arctic Fjord Tour with light lunch, 5 hrs",
+          "rate_type": "PP",
+          "rate": 1900.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 8",
+          "description": "Private Transfer from Hotel to Tromso Airport",
+          "rate_type": "PI",
+          "rate": 1700.0,
+          "currency": "NOK"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

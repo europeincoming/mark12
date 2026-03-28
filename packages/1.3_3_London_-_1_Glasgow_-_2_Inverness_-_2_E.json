@@ -1,0 +1,88 @@
+{
+  "id": "1.3",
+  "region": "uk-ireland",
+  "title": "3 London - 1 Glasgow - 2 Inverness - 2 Edinburgh",
+  "nights": 8,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "London",
+      "nights": 3,
+      "hotel_3star": "- Hotel Montana",
+      "hotel_4star": "Hotel Riu Plaza London Victoria",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Glasgow",
+      "nights": 1,
+      "hotel_3star": "- Holiday Inn Express Glasgow City Centre Riverside",
+      "hotel_4star": "Novotel Glasgow Centre",
+      "rate_type": "PI",
+      "rate_3star": 80.0,
+      "rate_4star": 95.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Inverness",
+      "nights": 2,
+      "hotel_3star": "- Royal Highland Hotel",
+      "hotel_4star": "Blackfriars Inverness",
+      "rate_type": "PI",
+      "rate_3star": 155.0,
+      "rate_4star": 285.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Edinburgh",
+      "nights": 2,
+      "hotel_3star": "- Holiday Inn Express Edinburgh City Centre",
+      "hotel_4star": "Apex City of Edinburgh Hotel",
+      "rate_type": "PI",
+      "rate_3star": 330.0,
+      "rate_4star": 350.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London Hop on Hop off 1 day pass with one way Thames river cruise",
+          "rate_type": "PP",
+          "rate": 38.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

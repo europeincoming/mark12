@@ -1,0 +1,147 @@
+{
+  "id": "1.2",
+  "region": "uk-ireland",
+  "title": "3 London - 2 Manchester- 2 Edinburgh - 2 Inverness - 1 Glasgow",
+  "nights": 10,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "London",
+      "nights": 3,
+      "hotel_3star": "- Hotel Montana",
+      "hotel_4star": "Hotel Riu Plaza London Victoria",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Manchester",
+      "nights": 2,
+      "hotel_3star": "- Hilton Garden Inn Manchester Emirates Old Trafford",
+      "hotel_4star": "Crowne Plaza Manchester City Centre",
+      "rate_type": "PI",
+      "rate_3star": 240.0,
+      "rate_4star": 290.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Edinburgh",
+      "nights": 2,
+      "hotel_3star": "- Holiday Inn Express Edinburgh City Centre",
+      "hotel_4star": "Apex City of Edinburgh Hotel",
+      "rate_type": "PI",
+      "rate_3star": 330.0,
+      "rate_4star": 350.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Inverness",
+      "nights": 2,
+      "hotel_3star": "- Royal Highland Hotel",
+      "hotel_4star": "Blackfriars Inverness",
+      "rate_type": "PI",
+      "rate_3star": 155.0,
+      "rate_4star": 285.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Glasgow",
+      "nights": 1,
+      "hotel_3star": "- Holiday Inn Express Glasgow City Centre Riverside",
+      "hotel_4star": "Novotel Glasgow Centre",
+      "rate_type": "PI",
+      "rate_3star": 80.0,
+      "rate_4star": 95.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London Hop on Hop off 1 day pass with one way Thames river cruise",
+          "rate_type": "PP",
+          "rate": 38.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private vehicle cost",
+        "rate_type": "PI",
+        "rate": 7600.0,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private vehicle cost",
+          "rate_type": "PI",
+          "rate": 7600.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PP",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London city tour, 3 hrs with guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "London eye standard tickets + Thames cruise one way",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 3",
+          "description": "Stonehenge & Bath excursion, with entrances",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

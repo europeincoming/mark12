@@ -1,0 +1,282 @@
+{
+  "id": "6.1",
+  "region": "spain-portugal",
+  "title": "2 Madrid - 2 Granada - 2 Seville - 2 Barcelona",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Madrid",
+      "nights": 2,
+      "hotel_3star": "Hotel Regente",
+      "hotel_4star": "Novotel Madrid City Las Ventas",
+      "rate_type": "PI",
+      "rate_3star": 490.0,
+      "rate_4star": 470.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Granada",
+      "nights": 2,
+      "hotel_3star": "Hotel Comfort Dauro 2",
+      "hotel_4star": "Occidental Granada",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 370.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Seville",
+      "nights": 2,
+      "hotel_3star": "Hotel Derby Sevilla",
+      "hotel_4star": "Novotel Sevilla",
+      "rate_type": "PI",
+      "rate_3star": 350.0,
+      "rate_4star": 470.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Barcelona",
+      "nights": 2,
+      "hotel_3star": "Hotel HCC Regente",
+      "hotel_4star": "Mercure Barcelona Condor",
+      "rate_type": "PI",
+      "rate_3star": 370.0,
+      "rate_4star": 420.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Madrid airport to Madrid hotel, private transfer",
+          "rate_type": "PI",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Madrid city tour with Royal Palace, 4.5 hrs",
+          "rate_type": "PP",
+          "rate": 65.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Madrid - Granada train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Guided Tour to the Alhambra & Generalife Gardens, 3 hrs walking",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Granada - Seville train, II Class",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Historic Seville walking tour with Royal Alcazar, 2 hrs",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Seville - Barcelona train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 95.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 9",
+        "rate_type": "PI",
+        "rate": 11550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 9",
+          "rate_type": "PI",
+          "rate": 11550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Tickets to Alhambra and Generalife",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Seville - Barcelona train + Station transfers",
+          "rate_type": "PP",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 8",
+          "description": "Barcelona city tour + Montserrat visit with guide for 8 hrs",
+          "rate_type": "PI",
+          "rate": 500.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Montserrat tickets",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 2953.5,
+              "4star": 3097.5
+            },
+            {
+              "pax": 10,
+              "3star": 2592.0,
+              "4star": 2736.0
+            },
+            {
+              "pax": 12,
+              "3star": 2351.0,
+              "4star": 2495.0000000000005
+            },
+            {
+              "pax": 14,
+              "3star": 2178.8571428571427,
+              "4star": 2322.8571428571427
+            },
+            {
+              "pax": 16,
+              "3star": 2049.75,
+              "4star": 2193.75
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 3076.5625,
+              "4star": 3226.5625
+            },
+            {
+              "pax": 10,
+              "3star": 2700.0,
+              "4star": 2850.0
+            },
+            {
+              "pax": 12,
+              "3star": 2448.9583333333335,
+              "4star": 2598.958333333334
+            },
+            {
+              "pax": 14,
+              "3star": 2269.6428571428573,
+              "4star": 2419.6428571428573
+            },
+            {
+              "pax": 16,
+              "3star": 2135.15625,
+              "4star": 2285.15625
+            }
+          ]
+        },
+        "Standard": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 2707.375,
+              "4star": 2839.3750000000005
+            },
+            {
+              "pax": 10,
+              "3star": 2376.0,
+              "4star": 2508.0
+            },
+            {
+              "pax": 12,
+              "3star": 2155.0833333333335,
+              "4star": 2287.083333333334
+            },
+            {
+              "pax": 14,
+              "3star": 1997.2857142857144,
+              "4star": 2129.2857142857147
+            },
+            {
+              "pax": 16,
+              "3star": 1878.9375000000002,
+              "4star": 2010.9375000000002
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 2830.4375,
+              "4star": 2968.4374999999995
+            },
+            {
+              "pax": 10,
+              "3star": 2484.0,
+              "4star": 2622.0
+            },
+            {
+              "pax": 12,
+              "3star": 2253.0416666666665,
+              "4star": 2391.041666666667
+            },
+            {
+              "pax": 14,
+              "3star": 2088.0714285714284,
+              "4star": 2226.0714285714284
+            },
+            {
+              "pax": 16,
+              "3star": 1964.3437499999998,
+              "4star": 2102.34375
+            }
+          ]
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

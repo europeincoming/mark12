@@ -1,0 +1,206 @@
+{
+  "id": "2.5",
+  "region": "western-central-europe",
+  "title": "2 Amsterdam - 2 Paris - 3 Lucerne - 2 Venice - 1 Florence - 2 Rome",
+  "nights": 12,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Amsterdam",
+      "nights": 2,
+      "hotel_3star": "ibis Amsterdam City West",
+      "hotel_4star": "Mercure Amsterdam City Hotel",
+      "rate_type": "PI",
+      "rate_3star": 420.0,
+      "rate_4star": 540.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Londres et New York",
+      "hotel_4star": "Mercure Paris Montmartre Sacre Coeur",
+      "rate_type": "PI",
+      "rate_3star": 380.0,
+      "rate_4star": 500.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Lucerne",
+      "nights": 3,
+      "hotel_3star": "De la Paix",
+      "hotel_4star": "Hotel Monopol",
+      "rate_type": "PI",
+      "rate_3star": 540.0,
+      "rate_4star": 750.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Mestre Venice",
+      "nights": 2,
+      "hotel_3star": "Hotel Aaron",
+      "hotel_4star": "Hotel Plaza",
+      "rate_type": "PI",
+      "rate_3star": 260.0,
+      "rate_4star": 320.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 1,
+      "hotel_3star": "Diana Park Hotel",
+      "hotel_4star": "Hotel Diplomat",
+      "rate_type": "PI",
+      "rate_3star": 170.0,
+      "rate_4star": 240.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Nord Nuova",
+      "hotel_4star": "Palladium Palace",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 440.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Amsterdam airport to Amsterdam hotel private transfer",
+          "rate_type": "PI",
+          "rate": 90.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Windmills, Volendam cheese factory coach tour, 5.5 hrs",
+          "rate_type": "PP",
+          "rate": 59.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Amsterdam to Paris train ticket, II class",
+          "rate_type": "PP",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+          "rate_type": "PP",
+          "rate": 99.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Paris to Lucerne train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 4 days , II Class",
+          "rate_type": "PP",
+          "rate": 281.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 13",
+        "rate_type": "PI",
+        "rate": 12600.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 13",
+          "rate_type": "PI",
+          "rate": 12600.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Canal cruise + volendam maarken",
+          "rate_type": "PP",
+          "rate": 29.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Paris panoramic tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hour",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 9",
+          "description": "Venice walking tour, 2 hrs with english speaking guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 12",
+          "description": "Rome city tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

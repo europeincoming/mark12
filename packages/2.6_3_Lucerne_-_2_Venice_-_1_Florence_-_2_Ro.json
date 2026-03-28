@@ -1,0 +1,130 @@
+{
+  "id": "2.6",
+  "region": "western-central-europe",
+  "title": "3 Lucerne - 2 Venice - 1 Florence - 2 Rome",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Zurich",
+      "nights": 3,
+      "hotel_3star": "Hotel Drei Konige",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 630.0,
+      "rate_4star": 780.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Mestre",
+      "nights": 2,
+      "hotel_3star": "Aaron Hotel",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 260.0,
+      "rate_4star": 320.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 1,
+      "hotel_3star": "Diana Park Hotel",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 170.0,
+      "rate_4star": 240.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Nord Nuova",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 440.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Swiss pass, 3 days II class consecutive",
+          "rate_type": "PP",
+          "rate": 232.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Lucerne - Titlis with swiss pass",
+          "rate_type": "PP",
+          "rate": 70.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 9",
+        "rate_type": "PI",
+        "rate": 9500.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 9",
+          "rate_type": "PI",
+          "rate": 9500.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Lucerne - Titlis excursion",
+          "rate_type": "PP",
+          "rate": 95.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Venice - Walking tour, 2 hrs english speaking guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 8",
+          "description": "Rome city tour 3 hrs w/ english lang guide, no entrances",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

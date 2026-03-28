@@ -1,0 +1,135 @@
+{
+  "id": "1.1",
+  "region": "uk-ireland",
+  "title": "3 London private",
+  "nights": 3,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "London",
+      "nights": 3,
+      "hotel_3star": "- Hotel Montana",
+      "hotel_4star": "Hotel Riu Plaza London Victoria",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "private": {
+      "vehicle_cost": null,
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London city tour, 3 hrs with guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "London Eye standard tickets",
+          "rate_type": "PP",
+          "rate": 25.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "Thames river cruise, one way",
+          "rate_type": "PP",
+          "rate": 12.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 3",
+          "description": "Stonehenge and Bath excursion with entrance tickets, no guide",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 4",
+          "description": "London hotel to London airport private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "Coach for 2 days, Day 2 - 3",
+          "rate_type": "PI",
+          "rate": 1200.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "London Eye standard ticket",
+      "rate": 30.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Madam Tussauds ticket",
+      "rate": 35.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Tower of London ticket",
+      "rate": 34.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "London - Stonehenge and Bath Tour, 10 hrs regular coach including all entrance tickets",
+      "rate": 116.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Manchester - Windermere & the Lake District, 11 hours coach tour",
+      "rate": 70.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Manchester - Derbyshire & the Peak District, 9 hours coach tour",
+      "rate": 65.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Edinburgh 1 day hop on hop off pass",
+      "rate": 20.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Edinburgh - Loch Lomond, Stirling Castle, 10 hrs coach regular",
+      "rate": 62.0,
+      "currency": "EUR"
+    }
+  ],
+  "description": ""
+}

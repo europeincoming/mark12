@@ -1,0 +1,190 @@
+{
+  "id": "1.5",
+  "region": "uk-ireland",
+  "title": "2 Dublin - 3 Limerick - 1 Dublin",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Dublin",
+      "nights": 2,
+      "hotel_3star": "Hampton By Hilton Dublin City Centre",
+      "hotel_4star": "Riu Plaza The Gresham Dublin",
+      "rate_type": "PI",
+      "rate_3star": 270.0,
+      "rate_4star": 300.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Limerick",
+      "nights": 3,
+      "hotel_3star": "Maldron Hotel Limerick",
+      "hotel_4star": "Limerick City Hotel",
+      "rate_type": "PI",
+      "rate_3star": 465.0,
+      "rate_4star": 570.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Dublin",
+      "nights": 1,
+      "hotel_3star": "Hampton By Hilton Dublin City Centre",
+      "hotel_4star": "Riu Plaza The Gresham Dublin",
+      "rate_type": "PI",
+      "rate_3star": 135.0,
+      "rate_4star": 150.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Dublin airport to Dublin hotel private transfer",
+          "rate_type": "PI",
+          "rate": 100.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Dublin Hop-On Hop-Off 1 day ticket",
+          "rate_type": "PP",
+          "rate": 28.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Dublin to Limerick train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Cliffs of Moher Tour from Limerick, 7 hrs regular coach",
+          "rate_type": "PP",
+          "rate": 64.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private minivan on disposal from Day 3 till Day 6",
+        "rate_type": "PI",
+        "rate": 2550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private minivan on disposal from Day 3 till Day 6",
+          "rate_type": "PI",
+          "rate": 2550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Dublin airport to Dublin hotel private transfer",
+          "rate_type": "PP",
+          "rate": 100.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Dublin panoramic tour/3 hrs, no guide.",
+          "rate_type": "PP",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Dublin - Moher - Limerick",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Killarney",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Doolin",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Limerick - Kilkenny - Dublin",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Dublin hotel to Dublin airport private transfer",
+          "rate_type": "PI",
+          "rate": 100.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Arrive Dublin, pickup rental car from Dublin airport, SUV class Nissan Qashqai or similar",
+        "rate_type": "PI",
+        "rate": 700.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Arrive Dublin, pickup rental car from Dublin airport, SUV class Nissan Qashqai or similar",
+          "rate_type": "PI",
+          "rate": 700.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Dublin - Moher - Limerick",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

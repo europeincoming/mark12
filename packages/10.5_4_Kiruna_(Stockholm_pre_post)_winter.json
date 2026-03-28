@@ -1,0 +1,86 @@
+{
+  "id": "10.5",
+  "region": "scandinavia",
+  "title": "4 Kiruna (Stockholm pre/post), winter",
+  "nights": 4,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Kiruna",
+      "nights": 4,
+      "hotel_3star": "Camp Ripan",
+      "hotel_4star": "Scandic Kiruna",
+      "rate_type": "PI",
+      "rate_3star": 840.0,
+      "rate_4star": 1040.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Transfer to hotel",
+          "rate_type": "PI",
+          "rate": 900.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 2",
+          "description": "Dog Sled Adventure, 2-3 hours (including transfers)",
+          "rate_type": "PP",
+          "rate": 1800.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "",
+          "description": "Northern Lights chase by minibus or snowmobile sleigh (2 pax/snowmobile)",
+          "rate_type": "PP",
+          "rate": 1900.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Tour to the iconic ICEHOTEL & Jukkasjärvi, 3 hours",
+          "rate_type": "PP",
+          "rate": 1800.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Snowmobile safari, 6 hours",
+          "rate_type": "PP",
+          "rate": 3300.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Transfer to Kiruna Airport",
+          "rate_type": "PI",
+          "rate": 900.0,
+          "currency": "SEK"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

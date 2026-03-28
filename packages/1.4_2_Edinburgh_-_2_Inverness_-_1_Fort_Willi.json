@@ -1,0 +1,165 @@
+{
+  "id": "1.4",
+  "region": "uk-ireland",
+  "title": "2 Edinburgh - 2 Inverness - 1 Fort William -  1 Edinburgh",
+  "nights": 6,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Edinburgh",
+      "nights": 2,
+      "hotel_3star": "- Holiday Inn Express Edinburgh City Centre",
+      "hotel_4star": "Apex City of Edinburgh Hotel",
+      "rate_type": "PI",
+      "rate_3star": 330.0,
+      "rate_4star": 350.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Inverness",
+      "nights": 2,
+      "hotel_3star": "- Royal Highland Hotel",
+      "hotel_4star": "Blackfriars Inverness",
+      "rate_type": "PI",
+      "rate_3star": 233.0,
+      "rate_4star": 285.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Fort William",
+      "nights": 1,
+      "hotel_3star": "- Premier Inn Fort William hotel",
+      "hotel_4star": "The Garrison Hotel",
+      "rate_type": "PI",
+      "rate_3star": 170.0,
+      "rate_4star": 210.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Glasgow",
+      "nights": 1,
+      "hotel_3star": "- Holiday Inn Express Glasgow - City Ctr Riverside",
+      "hotel_4star": "Novotel Glasgow Centre",
+      "rate_type": "PI",
+      "rate_3star": 80.0,
+      "rate_4star": 95.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Edinburgh airport to Edinburgh hotel private transfer",
+          "rate_type": "PI",
+          "rate": 80.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach for 3 hrs on Day 2 & on disposal from Day 3  till Day 6 (8 hrs)",
+        "rate_type": "PI",
+        "rate": 4250.0,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach for 3 hrs on Day 2 & on disposal from Day 3  till Day 6 (8 hrs)",
+          "rate_type": "PI",
+          "rate": 4250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 1",
+          "description": "Edinburgh airport to Edinburgh hotel private transfer",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "Edinburgh panoramic tour/3 hrs, no guide",
+          "rate_type": "PP",
+          "rate": 250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 3",
+          "description": "Edinburgh to Inverness, enroute Loch Ness and highlands",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 4",
+          "description": "Skye excursion",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 6",
+          "description": "Fort William to Glasgow. Enroute Loch Lomond",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 7",
+          "description": "Glasgow hotel to Glasgow airport private transfer",
+          "rate_type": "PI",
+          "rate": 0.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Arrive Edinburgh airport. Pickup rental car SUV class Ford Kuga / similar",
+        "rate_type": "PI",
+        "rate": 580.0,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Arrive Edinburgh airport. Pickup rental car SUV class Ford Kuga / similar",
+          "rate_type": "PI",
+          "rate": 580.0,
+          "currency": "GBP"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

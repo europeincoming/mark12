@@ -1,0 +1,254 @@
+{
+  "id": "5.2",
+  "region": "france",
+  "title": "2 Paris - 2 Bayeux - 2 Tours - 1 Paris",
+  "nights": null,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 296.0,
+      "rate_4star": 500.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Bayeux",
+      "nights": 2,
+      "hotel_3star": "ibis Bayeux Port en Bessin",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Tours",
+      "nights": 2,
+      "hotel_3star": "Kyriad tours centre",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 350.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Paris",
+      "nights": 1,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 150.0,
+      "rate_4star": 220.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 170.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 7",
+        "rate_type": "PI",
+        "rate": 8800.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 7",
+          "rate_type": "PI",
+          "rate": 8800.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris city tour with local guide for 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hr",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1985.1,
+              "4star": 2251.5
+            },
+            {
+              "pax": 10,
+              "3star": 1713.6,
+              "4star": 1980.0
+            },
+            {
+              "pax": 12,
+              "3star": 1532.6000000000001,
+              "4star": 1799.0
+            },
+            {
+              "pax": 14,
+              "3star": 1403.314285714286,
+              "4star": 1669.7142857142858
+            },
+            {
+              "pax": 16,
+              "3star": 1306.35,
+              "4star": 1572.75
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 2067.8125,
+              "4star": 2345.3125
+            },
+            {
+              "pax": 10,
+              "3star": 1785.0,
+              "4star": 2062.5
+            },
+            {
+              "pax": 12,
+              "3star": 1596.4583333333335,
+              "4star": 1873.9583333333335
+            },
+            {
+              "pax": 14,
+              "3star": 1461.7857142857144,
+              "4star": 1739.2857142857144
+            },
+            {
+              "pax": 16,
+              "3star": 1360.78125,
+              "4star": 1638.28125
+            }
+          ]
+        },
+        "Standard": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1819.6750000000002,
+              "4star": 2063.875
+            },
+            {
+              "pax": 10,
+              "3star": 1570.8000000000002,
+              "4star": 1815.0000000000002
+            },
+            {
+              "pax": 12,
+              "3star": 1404.8833333333334,
+              "4star": 1649.0833333333335
+            },
+            {
+              "pax": 14,
+              "3star": 1286.3714285714289,
+              "4star": 1530.571428571429
+            },
+            {
+              "pax": 16,
+              "3star": 1197.4875000000002,
+              "4star": 1441.6875000000002
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1902.3874999999998,
+              "4star": 2157.6875
+            },
+            {
+              "pax": 10,
+              "3star": 1642.1999999999998,
+              "4star": 1897.4999999999998
+            },
+            {
+              "pax": 12,
+              "3star": 1468.7416666666666,
+              "4star": 1724.0416666666665
+            },
+            {
+              "pax": 14,
+              "3star": 1344.8428571428572,
+              "4star": 1600.142857142857
+            },
+            {
+              "pax": 16,
+              "3star": 1251.9187499999998,
+              "4star": 1507.2187499999998
+            }
+          ]
+        }
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Paris airport to Paris hotel private transfer",
+        "rate_type": "PI",
+        "rate": 170.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 170.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Pickup rental car in Paris, SUV class 5 seat car, Automatic",
+          "rate_type": "PI",
+          "rate": 500.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

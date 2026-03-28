@@ -1,0 +1,136 @@
+{
+  "id": "9.1",
+  "region": "scandinavia",
+  "title": "1 CPH - 1 Ferry - 1 Oslo - 1 Stockholm - 1 Ferry - 1 Helsinki",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Copenhagen",
+      "nights": 1,
+      "hotel_3star": "Moxy Copenhagen Sydhavnen",
+      "hotel_4star": "Scandic Kødbyen",
+      "rate_type": "PI",
+      "rate_3star": 195.0,
+      "rate_4star": 250.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "DFDS Ferry",
+      "nights": 1,
+      "hotel_3star": "Inside cabin with breakfast & dinner",
+      "hotel_4star": "Sea view cabin",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 350.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Oslo",
+      "nights": 1,
+      "hotel_3star": "Anker Hotel",
+      "hotel_4star": "Scandic Vulkan",
+      "rate_type": "PI",
+      "rate_3star": 150.0,
+      "rate_4star": 230.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Stockholm",
+      "nights": 1,
+      "hotel_3star": "Quality Hotel Globe",
+      "hotel_4star": "Best Western Plus Time Hotel",
+      "rate_type": "PI",
+      "rate_3star": 175.0,
+      "rate_4star": 220.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Tallink Silja Ferry",
+      "nights": 1,
+      "hotel_3star": "inside cabin with bfast & dinner",
+      "hotel_4star": "promenade view",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 400.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Helsinki",
+      "nights": 1,
+      "hotel_3star": "Scandic Hakaniemi",
+      "hotel_4star": "Scandic Simonkenttä",
+      "rate_type": "PI",
+      "rate_3star": 140.0,
+      "rate_4star": 200.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 2",
+          "description": "24h BUS Hop On-Hop Off Classic Copenhagen. Then ferry to Oslo",
+          "rate_type": "PP",
+          "rate": 279.0,
+          "currency": "DKK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Oslo 24h BUS Hop On-Hop Off",
+          "rate_type": "PP",
+          "rate": 495.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Oslo - Stockholm train, II Class",
+          "rate_type": "PP",
+          "rate": 1050.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Archipelago Tour with Guide, 2.5 hrs. Then ferry to Helsinki",
+          "rate_type": "PP",
+          "rate": 380.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 6",
+          "description": "Winter -30.04 ** Helsinki Panorama Sightseeing, 1.5 hrs\nSummer -30.09 **Helsinki Hop On-Hop Off bus + Beautiful Canal Cruise 24 hr",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Private transfer to Helsinki airport",
+          "rate_type": "PI",
+          "rate": 70.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

@@ -1,0 +1,78 @@
+{
+  "id": "4.1",
+  "region": "switzerland",
+  "title": "2 Lucerne - 2 Interlaken - 1 Zurich",
+  "nights": 5,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Lucerne",
+      "nights": 2,
+      "hotel_3star": "Boutique Hotel Karl",
+      "hotel_4star": "Altstadt Hotel Krone Apartments Luzern",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 405.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "interlaken",
+      "nights": 2,
+      "hotel_3star": "Hotel Lötschberg",
+      "hotel_4star": "Stella Hotel Interlaken",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 300.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Zurich",
+      "nights": 1,
+      "hotel_3star": "Montana Hotel",
+      "hotel_4star": "Züri by Fassbind",
+      "rate_type": "PI",
+      "rate_3star": 182.0,
+      "rate_4star": 230.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 4 days , II Class",
+          "rate_type": "PP",
+          "rate": 233.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 58.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

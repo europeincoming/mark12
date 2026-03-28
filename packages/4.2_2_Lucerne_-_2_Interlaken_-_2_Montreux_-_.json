@@ -1,0 +1,233 @@
+{
+  "id": "4.2",
+  "region": "switzerland",
+  "title": "2 Lucerne - 2 Interlaken - 2 Montreux - 1 Zurich",
+  "nights": null,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Lucerne",
+      "nights": 2,
+      "hotel_3star": "Boutique Hotel Karl",
+      "hotel_4star": "Altstadt Hotel Krone Apartments Luzern",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 405.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Interlaken",
+      "nights": 2,
+      "hotel_3star": "Hotel Lötschberg",
+      "hotel_4star": "Stella Hotel Interlaken",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 300.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Montreaux. Hotel Helvetie | Eden Palace Au Lac",
+      "nights": 2,
+      "hotel_3star": null,
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 360.0,
+      "rate_4star": 440.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Zurich",
+      "nights": 1,
+      "hotel_3star": "Montana Hotel",
+      "hotel_4star": "Züri by Fassbind",
+      "rate_type": "PI",
+      "rate_3star": 182.0,
+      "rate_4star": 230.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 8 days , II Class",
+          "rate_type": "PP",
+          "rate": 340.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 58.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 7",
+        "rate_type": "PI",
+        "rate": 7200.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 7",
+          "rate_type": "PI",
+          "rate": 7200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Broc chocolate factory visit tickets",
+          "rate_type": "PP",
+          "rate": 20.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1888.8,
+              "4star": 2028.6
+            },
+            {
+              "pax": 10,
+              "3star": 1672.8,
+              "4star": 1812.6
+            },
+            {
+              "pax": 12,
+              "3star": 1528.8,
+              "4star": 1668.6
+            },
+            {
+              "pax": 14,
+              "3star": 1425.942857142857,
+              "4star": 1565.742857142857
+            },
+            {
+              "pax": 16,
+              "3star": 1348.8,
+              "4star": 1488.6
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1967.5,
+              "4star": 2113.125
+            },
+            {
+              "pax": 10,
+              "3star": 1742.5,
+              "4star": 1888.125
+            },
+            {
+              "pax": 12,
+              "3star": 1592.5,
+              "4star": 1738.125
+            },
+            {
+              "pax": 14,
+              "3star": 1485.3571428571427,
+              "4star": 1630.9821428571427
+            },
+            {
+              "pax": 16,
+              "3star": 1405.0,
+              "4star": 1550.625
+            }
+          ]
+        },
+        "Standard": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1731.4,
+              "4star": 1859.5500000000002
+            },
+            {
+              "pax": 10,
+              "3star": 1533.4,
+              "4star": 1661.5500000000002
+            },
+            {
+              "pax": 12,
+              "3star": 1401.4,
+              "4star": 1529.5500000000002
+            },
+            {
+              "pax": 14,
+              "3star": 1307.1142857142856,
+              "4star": 1435.2642857142857
+            },
+            {
+              "pax": 16,
+              "3star": 1236.4,
+              "4star": 1364.5500000000002
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1810.1,
+              "4star": 1944.0749999999998
+            },
+            {
+              "pax": 10,
+              "3star": 1603.1,
+              "4star": 1737.0749999999998
+            },
+            {
+              "pax": 12,
+              "3star": 1465.1,
+              "4star": 1599.0749999999998
+            },
+            {
+              "pax": 14,
+              "3star": 1366.5285714285712,
+              "4star": 1500.5035714285711
+            },
+            {
+              "pax": 16,
+              "3star": 1292.6,
+              "4star": 1426.5749999999998
+            }
+          ]
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}

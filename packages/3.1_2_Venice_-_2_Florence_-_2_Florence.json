@@ -1,0 +1,276 @@
+{
+  "id": "3.1",
+  "region": "italy",
+  "title": "2 Venice - 2 Florence - 2 Florence",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Mestre",
+      "nights": 2,
+      "hotel_3star": "Venezia Mestre",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 145.0,
+      "rate_4star": 260.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 2,
+      "hotel_3star": "Hotel Delle Nazioni",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 290.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Windrose",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 375.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Venice Airport - Mestre Hotel private transfer",
+          "rate_type": "PI",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Venice - Small group walking tour, 1.5 hrs",
+          "rate_type": "PP",
+          "rate": 35.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Venice - Florence train ticket, II class",
+          "rate_type": "PP",
+          "rate": 55.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Florence - Full day trip to Tuscany, Siena-San Gimignano with lunch & wine tasting, 11.5 hrs regular coach",
+          "rate_type": "PP",
+          "rate": 95.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Florence - Rome train ticket, II class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Rome - Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Rome hotel to Rome airport, private transfer",
+          "rate_type": "PI",
+          "rate": 120.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 3 till Day 7",
+        "rate_type": "PI",
+        "rate": 5700.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 3 till Day 7",
+          "rate_type": "PI",
+          "rate": 5700.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Venice to Mestre Hotel private transfer",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Venice - Walking tour, 2 hrs english speaking guide",
+          "rate_type": "PI",
+          "rate": 520.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Rome city tour 3 hrs w/ english lang guide, no entrances",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1393.5,
+              "4star": 1585.5
+            },
+            {
+              "pax": 10,
+              "3star": 1199.3999999999999,
+              "4star": 1391.3999999999999
+            },
+            {
+              "pax": 12,
+              "3star": 1070.0,
+              "4star": 1262.0
+            },
+            {
+              "pax": 14,
+              "3star": 977.5714285714287,
+              "4star": 1169.5714285714287
+            },
+            {
+              "pax": 16,
+              "3star": 908.25,
+              "4star": 1100.25
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1451.5625,
+              "4star": 1651.5625
+            },
+            {
+              "pax": 10,
+              "3star": 1249.375,
+              "4star": 1449.375
+            },
+            {
+              "pax": 12,
+              "3star": 1114.5833333333335,
+              "4star": 1314.5833333333335
+            },
+            {
+              "pax": 14,
+              "3star": 1018.3035714285716,
+              "4star": 1218.3035714285716
+            },
+            {
+              "pax": 16,
+              "3star": 946.09375,
+              "4star": 1146.09375
+            }
+          ]
+        },
+        "Standard": {
+          "winter": [
+            {
+              "pax": 8,
+              "3star": 1277.375,
+              "4star": 1453.3750000000002
+            },
+            {
+              "pax": 10,
+              "3star": 1099.45,
+              "4star": 1275.45
+            },
+            {
+              "pax": 12,
+              "3star": 980.8333333333335,
+              "4star": 1156.8333333333335
+            },
+            {
+              "pax": 14,
+              "3star": 896.107142857143,
+              "4star": 1072.1071428571431
+            },
+            {
+              "pax": 16,
+              "3star": 832.5625000000001,
+              "4star": 1008.5625000000001
+            }
+          ],
+          "summer": [
+            {
+              "pax": 8,
+              "3star": 1335.4375,
+              "4star": 1519.4374999999998
+            },
+            {
+              "pax": 10,
+              "3star": 1149.425,
+              "4star": 1333.425
+            },
+            {
+              "pax": 12,
+              "3star": 1025.4166666666667,
+              "4star": 1209.4166666666667
+            },
+            {
+              "pax": 14,
+              "3star": 936.8392857142858,
+              "4star": 1120.8392857142858
+            },
+            {
+              "pax": 16,
+              "3star": 870.4062499999999,
+              "4star": 1054.40625
+            }
+          ]
+        }
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "Rome - Colosseum admission ticket",
+      "rate": 35.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Rome - Vatican Museum admission ticket",
+      "rate": 45.0,
+      "currency": "EUR"
+    }
+  ],
+  "description": ""
+}

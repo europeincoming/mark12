@@ -1,0 +1,140 @@
+{
+  "id": "3.2",
+  "region": "italy",
+  "title": "2 Rome - 2 Naples - 2 Florence - 2 Venice - 2 Milan",
+  "nights": 10,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Windrose",
+      "hotel_4star": "Palladium Palace",
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 375.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Naples",
+      "nights": 2,
+      "hotel_3star": "ibis Styles Napoli Garibaldi",
+      "hotel_4star": "Starhotels Terminus",
+      "rate_type": "PI",
+      "rate_3star": 270.0,
+      "rate_4star": 380.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 2,
+      "hotel_3star": "Hotel Delle Nazioni",
+      "hotel_4star": "Hotel Grand Hotel Baglioni",
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 290.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Mestre",
+      "nights": 2,
+      "hotel_3star": "Venezia Hotel",
+      "hotel_4star": "Mestre, Hotel Plaza",
+      "rate_type": "PI",
+      "rate_3star": 145.0,
+      "rate_4star": 260.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Milan",
+      "nights": 2,
+      "hotel_3star": "43 Station Hotel",
+      "hotel_4star": "NYX Hotel Milan",
+      "rate_type": "PI",
+      "rate_3star": 150.0,
+      "rate_4star": 240.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Rome Airport to Rome Hotel, private transfer",
+          "rate_type": "PI",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Rome - Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Rome - Naples train ticket, II class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 11",
+        "rate_type": "PI",
+        "rate": 11400.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 11",
+          "rate_type": "PI",
+          "rate": 11400.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Rome guided city tour, 3 hours (no entrances)",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 8",
+          "description": "Venice - private guided walking tour, 1.5 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "pricing": {
+        "Premium": {},
+        "Standard": {}
+      }
+    }
+  },
+  "optionals": [],
+  "description": ""
+}
