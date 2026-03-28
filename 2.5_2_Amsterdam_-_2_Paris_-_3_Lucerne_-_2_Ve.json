@@ -1,0 +1,378 @@
+{
+  "id": "2.2",
+  "region": "western-central-europe",
+  "title": "2 Paris - 3 Lucerne - 2 Innsbruck - 2 Vienna",
+  "nights": 9,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": "Marceau Bastille",
+      "rate_type": "PI",
+      "rate_3star": 296.0,
+      "rate_4star": 355.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Lucerne",
+      "nights": 3,
+      "hotel_3star": "Boutique Hotel Karl",
+      "hotel_4star": "Altstadt Hotel Krone Apartments Luzern",
+      "rate_type": "PI",
+      "rate_3star": 480.0,
+      "rate_4star": 608.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Innsbruck",
+      "nights": 2,
+      "hotel_3star": "Basic hotel Innsbruck",
+      "hotel_4star": "Altstadthotel Weisses Kreuz",
+      "rate_type": "PI",
+      "rate_3star": 175.0,
+      "rate_4star": 185.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Vienna",
+      "nights": 2,
+      "hotel_3star": "ibis Styles Wien City Hotel",
+      "hotel_4star": "arte Hotel Wien",
+      "rate_type": "PI",
+      "rate_3star": 225.0,
+      "rate_4star": 280.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+          "rate_type": "PP",
+          "rate": 89.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Paris to Lucerne train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 4 days , II Class",
+          "rate_type": "PP",
+          "rate": 233.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 58.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Paris airport to Paris hotel private transfer",
+        "Day 2": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+        "Day 3": "Paris to Lucerne train ticket, II Class",
+        "Day 4": "Titlis with pass, Lake Lucerne cruise free with pass"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2827.2,
+              "twin": 1413.6,
+              "child": 588.058
+            },
+            "4star": {
+              "single": 3129.6,
+              "twin": 1564.8,
+              "child": 650.957
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2945.0,
+              "twin": 1472.5,
+              "child": 612.56
+            },
+            "4star": {
+              "single": 3260.0,
+              "twin": 1630.0,
+              "child": 678.08
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2591.6,
+              "twin": 1295.8,
+              "child": 539.053
+            },
+            "4star": {
+              "single": 2868.8,
+              "twin": 1434.4,
+              "child": 596.71
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2709.4,
+              "twin": 1354.7,
+              "child": 563.555
+            },
+            "4star": {
+              "single": 2999.2,
+              "twin": 1499.6,
+              "child": 623.834
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach for 3 hrs on Day 2 & on disposal for 8 hrs from Day 3 till Day 10",
+        "rate_type": "PI",
+        "rate": 8200.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach for 3 hrs on Day 2 & on disposal for 8 hrs from Day 3 till Day 10",
+          "rate_type": "PI",
+          "rate": 8200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris city tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hour",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Swarovski crystal world entrance",
+          "rate_type": "PP",
+          "rate": 25.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 9",
+          "description": "Vienna city tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Schonbrunn Palace tickets",
+          "rate_type": "PP",
+          "rate": 35.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Paris city tour with English speaking guide, 3 hrs",
+        "Day 4": "Titlis and Engelberg",
+        "Day 9": "Vienna city tour with English speaking guide, 3 hrs"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3430.2,
+                "4star": 3581.4
+              },
+              {
+                "pax": 10,
+                "3star": 2923.2,
+                "4star": 3074.4
+              },
+              {
+                "pax": 12,
+                "3star": 2585.2,
+                "4star": 2736.4
+              },
+              {
+                "pax": 14,
+                "3star": 2343.771,
+                "4star": 2494.971
+              },
+              {
+                "pax": 16,
+                "3star": 2162.7,
+                "4star": 2313.9
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3573.125,
+                "4star": 3730.625
+              },
+              {
+                "pax": 10,
+                "3star": 3045.0,
+                "4star": 3202.5
+              },
+              {
+                "pax": 12,
+                "3star": 2692.917,
+                "4star": 2850.417
+              },
+              {
+                "pax": 14,
+                "3star": 2441.429,
+                "4star": 2598.929
+              },
+              {
+                "pax": 16,
+                "3star": 2252.812,
+                "4star": 2410.312
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3144.35,
+                "4star": 3282.95
+              },
+              {
+                "pax": 10,
+                "3star": 2679.6,
+                "4star": 2818.2
+              },
+              {
+                "pax": 12,
+                "3star": 2369.767,
+                "4star": 2508.367
+              },
+              {
+                "pax": 14,
+                "3star": 2148.457,
+                "4star": 2287.057
+              },
+              {
+                "pax": 16,
+                "3star": 1982.475,
+                "4star": 2121.075
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3287.275,
+                "4star": 3432.175
+              },
+              {
+                "pax": 10,
+                "3star": 2801.4,
+                "4star": 2946.3
+              },
+              {
+                "pax": 12,
+                "3star": 2477.483,
+                "4star": 2622.383
+              },
+              {
+                "pax": 14,
+                "3star": 2246.114,
+                "4star": 2391.014
+              },
+              {
+                "pax": 16,
+                "3star": 2072.587,
+                "4star": 2217.487
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Paris to Vienna via the Swiss Alps and Innsbruck — art nouveau capitals, Baroque palaces and the Swarovski crystal worlds."
+}

@@ -1,0 +1,334 @@
+{
+  "id": "2.6",
+  "region": "western-central-europe",
+  "title": "3 Lucerne - 2 Venice - 1 Florence - 2 Rome",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Zurich",
+      "nights": 3,
+      "hotel_3star": "Hotel Drei Konige",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 630.0,
+      "rate_4star": 780.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Mestre",
+      "nights": 2,
+      "hotel_3star": "Aaron Hotel",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 260.0,
+      "rate_4star": 320.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 1,
+      "hotel_3star": "Diana Park Hotel",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 170.0,
+      "rate_4star": 240.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Nord Nuova",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 440.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Swiss pass, 3 days II class consecutive",
+          "rate_type": "PP",
+          "rate": 232.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Lucerne - Titlis with swiss pass",
+          "rate_type": "PP",
+          "rate": 70.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Swiss pass, 3 days II class consecutive",
+        "Day 2": "Lucerne - Titlis with swiss pass"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2380.8,
+              "twin": 1190.4,
+              "child": 495.206
+            },
+            "4star": {
+              "single": 2860.8,
+              "twin": 1430.4,
+              "child": 595.046
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2480.0,
+              "twin": 1240.0,
+              "child": 515.84
+            },
+            "4star": {
+              "single": 2980.0,
+              "twin": 1490.0,
+              "child": 619.84
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2182.4,
+              "twin": 1091.2,
+              "child": 453.939
+            },
+            "4star": {
+              "single": 2622.4,
+              "twin": 1311.2,
+              "child": 545.459
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2281.6,
+              "twin": 1140.8,
+              "child": 474.573
+            },
+            "4star": {
+              "single": 2741.6,
+              "twin": 1370.8,
+              "child": 570.253
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 9",
+        "rate_type": "PI",
+        "rate": 9500.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 9",
+          "rate_type": "PI",
+          "rate": 9500.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Lucerne - Titlis excursion",
+          "rate_type": "PP",
+          "rate": 95.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Venice - Walking tour, 2 hrs english speaking guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 8",
+          "description": "Rome city tour 3 hrs w/ english lang guide, no entrances",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Lucerne - Titlis excursion",
+        "Day 5": "Venice - Walking tour, 2 hrs english speaking guide",
+        "Day 8": "Rome city tour 3 hrs w/ english lang guide, no entrances"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3867.0,
+                "4star": 4107.0
+              },
+              {
+                "pax": 10,
+                "3star": 3282.0,
+                "4star": 3522.0
+              },
+              {
+                "pax": 12,
+                "3star": 2892.0,
+                "4star": 3132.0
+              },
+              {
+                "pax": 14,
+                "3star": 2613.429,
+                "4star": 2853.429
+              },
+              {
+                "pax": 16,
+                "3star": 2404.5,
+                "4star": 2644.5
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4028.125,
+                "4star": 4278.125
+              },
+              {
+                "pax": 10,
+                "3star": 3418.75,
+                "4star": 3668.75
+              },
+              {
+                "pax": 12,
+                "3star": 3012.5,
+                "4star": 3262.5
+              },
+              {
+                "pax": 14,
+                "3star": 2722.321,
+                "4star": 2972.321
+              },
+              {
+                "pax": 16,
+                "3star": 2504.688,
+                "4star": 2754.688
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3544.75,
+                "4star": 3764.75
+              },
+              {
+                "pax": 10,
+                "3star": 3008.5,
+                "4star": 3228.5
+              },
+              {
+                "pax": 12,
+                "3star": 2651.0,
+                "4star": 2871.0
+              },
+              {
+                "pax": 14,
+                "3star": 2395.643,
+                "4star": 2615.643
+              },
+              {
+                "pax": 16,
+                "3star": 2204.125,
+                "4star": 2424.125
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3705.875,
+                "4star": 3935.875
+              },
+              {
+                "pax": 10,
+                "3star": 3145.25,
+                "4star": 3375.25
+              },
+              {
+                "pax": 12,
+                "3star": 2771.5,
+                "4star": 3001.5
+              },
+              {
+                "pax": 14,
+                "3star": 2504.536,
+                "4star": 2734.536
+              },
+              {
+                "pax": 16,
+                "3star": 2304.312,
+                "4star": 2534.312
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Switzerland to Italy — Lucerne's lake, Venice's canals, Florentine piazzas and the Colosseum."
+}

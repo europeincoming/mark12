@@ -1,0 +1,351 @@
+{
+  "id": "1.2",
+  "region": "uk-ireland",
+  "title": "3 London - 2 Manchester- 2 Edinburgh - 2 Inverness - 1 Glasgow",
+  "nights": 10,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "London",
+      "nights": 3,
+      "hotel_3star": "- Hotel Montana",
+      "hotel_4star": "Hotel Riu Plaza London Victoria",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Manchester",
+      "nights": 2,
+      "hotel_3star": "- Hilton Garden Inn Manchester Emirates Old Trafford",
+      "hotel_4star": "Crowne Plaza Manchester City Centre",
+      "rate_type": "PI",
+      "rate_3star": 240.0,
+      "rate_4star": 290.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Edinburgh",
+      "nights": 2,
+      "hotel_3star": "- Holiday Inn Express Edinburgh City Centre",
+      "hotel_4star": "Apex City of Edinburgh Hotel",
+      "rate_type": "PI",
+      "rate_3star": 330.0,
+      "rate_4star": 350.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Inverness",
+      "nights": 2,
+      "hotel_3star": "- Royal Highland Hotel",
+      "hotel_4star": "Blackfriars Inverness",
+      "rate_type": "PI",
+      "rate_3star": 155.0,
+      "rate_4star": 285.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Glasgow",
+      "nights": 1,
+      "hotel_3star": "- Holiday Inn Express Glasgow City Centre Riverside",
+      "hotel_4star": "Novotel Glasgow Centre",
+      "rate_type": "PI",
+      "rate_3star": 80.0,
+      "rate_4star": 95.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London Hop on Hop off 1 day pass with one way Thames river cruise",
+          "rate_type": "PP",
+          "rate": 38.0,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Your private transfer brings you from the airport into London. Spend the evening exploring the city at your own pace.",
+        "Day 2": "London's iconic landmarks on a hop-on hop-off bus: the Tower of London, Buckingham Palace, the Houses of Parliament and a one-hour Thames cruise past Tower Bridge."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1617.6,
+              "twin": 808.8,
+              "child": 336.461
+            },
+            "4star": {
+              "single": 1995.6,
+              "twin": 997.8,
+              "child": 415.085
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1685.0,
+              "twin": 842.5,
+              "child": 350.48
+            },
+            "4star": {
+              "single": 2078.75,
+              "twin": 1039.375,
+              "child": 432.38
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1482.8,
+              "twin": 741.4,
+              "child": 308.422
+            },
+            "4star": {
+              "single": 1829.3,
+              "twin": 914.65,
+              "child": 380.494
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1550.2,
+              "twin": 775.1,
+              "child": 322.442
+            },
+            "4star": {
+              "single": 1912.45,
+              "twin": 956.225,
+              "child": 397.79
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private vehicle cost",
+        "rate_type": "PI",
+        "rate": 7600.0,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private vehicle cost",
+          "rate_type": "PI",
+          "rate": 7600.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PP",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London city tour, 3 hrs with guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "London eye standard tickets + Thames cruise one way",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 3",
+          "description": "Stonehenge & Bath excursion, with entrances",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Your private transfer brings you from the airport into London. Spend the evening exploring the city at your own pace.",
+        "Day 2": "London's iconic landmarks on a hop-on hop-off bus: the Tower of London, Buckingham Palace, the Houses of Parliament and a one-hour Thames cruise past Tower Bridge.",
+        "Day 3": "A free day in London. The National Gallery, Borough Market, a walk along the South Bank or Kensington's museums — the city offers more than any schedule can contain."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3324.9,
+                "4star": 3513.9
+              },
+              {
+                "pax": 10,
+                "3star": 2861.4,
+                "4star": 3050.4
+              },
+              {
+                "pax": 12,
+                "3star": 2552.4,
+                "4star": 2741.4
+              },
+              {
+                "pax": 14,
+                "3star": 2331.686,
+                "4star": 2520.686
+              },
+              {
+                "pax": 16,
+                "3star": 2166.15,
+                "4star": 2355.15
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3463.438,
+                "4star": 3660.312
+              },
+              {
+                "pax": 10,
+                "3star": 2980.625,
+                "4star": 3177.5
+              },
+              {
+                "pax": 12,
+                "3star": 2658.75,
+                "4star": 2855.625
+              },
+              {
+                "pax": 14,
+                "3star": 2428.839,
+                "4star": 2625.714
+              },
+              {
+                "pax": 16,
+                "3star": 2256.406,
+                "4star": 2453.281
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3047.825,
+                "4star": 3221.075
+              },
+              {
+                "pax": 10,
+                "3star": 2622.95,
+                "4star": 2796.2
+              },
+              {
+                "pax": 12,
+                "3star": 2339.7,
+                "4star": 2512.95
+              },
+              {
+                "pax": 14,
+                "3star": 2137.379,
+                "4star": 2310.629
+              },
+              {
+                "pax": 16,
+                "3star": 1985.638,
+                "4star": 2158.888
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3186.362,
+                "4star": 3367.487
+              },
+              {
+                "pax": 10,
+                "3star": 2742.175,
+                "4star": 2923.3
+              },
+              {
+                "pax": 12,
+                "3star": 2446.05,
+                "4star": 2627.175
+              },
+              {
+                "pax": 14,
+                "3star": 2234.532,
+                "4star": 2415.657
+              },
+              {
+                "pax": 16,
+                "3star": 2075.894,
+                "4star": 2257.019
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Britain's greatest hits: London's landmarks, the Scottish Highlands, Loch Ness, the Isle of Skye and Edinburgh's medieval old town."
+}

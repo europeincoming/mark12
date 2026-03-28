@@ -1,0 +1,278 @@
+{
+  "id": "1.1",
+  "region": "uk-ireland",
+  "title": "3 London private",
+  "nights": 3,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "London",
+      "nights": 3,
+      "hotel_3star": "- Hotel Montana",
+      "hotel_4star": "Hotel Riu Plaza London Victoria",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "private": {
+      "vehicle_cost": null,
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "London airport to London hotel private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "London city tour, 3 hrs with guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "London Eye standard tickets",
+          "rate_type": "PP",
+          "rate": 25.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "Thames river cruise, one way",
+          "rate_type": "PP",
+          "rate": 12.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 3",
+          "description": "Stonehenge and Bath excursion with entrance tickets, no guide",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 4",
+          "description": "London hotel to London airport private transfer",
+          "rate_type": "PI",
+          "rate": 167.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "",
+          "description": "Coach for 2 days, Day 2 - 3",
+          "rate_type": "PI",
+          "rate": 1200.0,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "London airport to London hotel private transfer",
+        "Day 2": "London city tour, 3 hrs with guide",
+        "Day 3": "Stonehenge and Bath excursion with entrance tickets, no guide",
+        "Day 4": "London hotel to London airport private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 564.0,
+                "4star": 624.0
+              },
+              {
+                "pax": 10,
+                "3star": 510.48,
+                "4star": 570.48
+              },
+              {
+                "pax": 12,
+                "3star": 474.8,
+                "4star": 534.8
+              },
+              {
+                "pax": 14,
+                "3star": 449.314,
+                "4star": 509.314
+              },
+              {
+                "pax": 16,
+                "3star": 430.2,
+                "4star": 490.2
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 587.5,
+                "4star": 650.0
+              },
+              {
+                "pax": 10,
+                "3star": 531.75,
+                "4star": 594.25
+              },
+              {
+                "pax": 12,
+                "3star": 494.583,
+                "4star": 557.083
+              },
+              {
+                "pax": 14,
+                "3star": 468.036,
+                "4star": 530.536
+              },
+              {
+                "pax": 16,
+                "3star": 448.125,
+                "4star": 510.625
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 517.0,
+                "4star": 572.0
+              },
+              {
+                "pax": 10,
+                "3star": 467.94,
+                "4star": 522.94
+              },
+              {
+                "pax": 12,
+                "3star": 435.233,
+                "4star": 490.233
+              },
+              {
+                "pax": 14,
+                "3star": 411.871,
+                "4star": 466.871
+              },
+              {
+                "pax": 16,
+                "3star": 394.35,
+                "4star": 449.35
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 540.5,
+                "4star": 598.0
+              },
+              {
+                "pax": 10,
+                "3star": 489.21,
+                "4star": 546.71
+              },
+              {
+                "pax": 12,
+                "3star": 455.017,
+                "4star": 512.517
+              },
+              {
+                "pax": 14,
+                "3star": 430.593,
+                "4star": 488.093
+              },
+              {
+                "pax": 16,
+                "3star": 412.275,
+                "4star": 469.775
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "London Eye standard ticket",
+      "rate": 30.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Madam Tussauds ticket",
+      "rate": 35.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Tower of London ticket",
+      "rate": 34.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "London - Stonehenge and Bath Tour, 10 hrs regular coach including all entrance tickets",
+      "rate": 116.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Manchester - Windermere & the Lake District, 11 hours coach tour",
+      "rate": 70.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Manchester - Derbyshire & the Peak District, 9 hours coach tour",
+      "rate": 65.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Edinburgh 1 day hop on hop off pass",
+      "rate": 20.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Edinburgh - Loch Lomond, Stirling Castle, 10 hrs coach regular",
+      "rate": 62.0,
+      "currency": "EUR"
+    }
+  ],
+  "description": "Private London — three nights with a dedicated vehicle from arrival to departure, a panoramic city tour and a Thames cruise."
+}

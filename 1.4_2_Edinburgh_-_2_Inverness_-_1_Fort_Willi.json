@@ -1,0 +1,113 @@
+{
+  "id": "10.1",
+  "region": "scandinavia",
+  "title": "4 Rovaniemi (Helsinki pre/post), winter",
+  "nights": 5,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Rovaniemi",
+      "nights": 4,
+      "hotel_3star": null,
+      "hotel_4star": "Scandic Pohjanovi",
+      "rate_type": "PI",
+      "rate_3star": null,
+      "rate_4star": 1200.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Arrive Rovaniemi, Private transfer from airport to hotel",
+          "rate_type": "PI",
+          "rate": 80.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Visit a Reindeer Farm and 1h Safari - Rovaniemi",
+          "rate_type": "PP",
+          "rate": 130.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Auroras – Northern Lights trip - guaranteed lights - Rovaniemi",
+          "rate_type": "PP",
+          "rate": 90.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Husky Experience, farm visit with short safari",
+          "rate_type": "PP",
+          "rate": 180.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Arrive Rovaniemi, Private transfer from airport to hotel",
+        "Day 2": "Visit a Reindeer Farm and 1h Safari - Rovaniemi",
+        "Day 3": "Husky Experience, farm visit with short safari"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 219.648
+            },
+            "4star": {
+              "single": 2496.0,
+              "twin": 1248.0,
+              "child": 519.168
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 968.0,
+              "twin": 484.0,
+              "child": 201.344
+            },
+            "4star": {
+              "single": 2288.0,
+              "twin": 1144.0,
+              "child": 475.904
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Four nights in Lapland — reindeer safaris, husky experiences and guaranteed Northern Lights hunting from Rovaniemi."
+}

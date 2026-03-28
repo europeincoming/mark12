@@ -1,0 +1,344 @@
+{
+  "id": "3.2",
+  "region": "italy",
+  "title": "2 Rome - 2 Naples - 2 Florence - 2 Venice - 2 Milan",
+  "nights": 10,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Windrose",
+      "hotel_4star": "Palladium Palace",
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 375.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Naples",
+      "nights": 2,
+      "hotel_3star": "ibis Styles Napoli Garibaldi",
+      "hotel_4star": "Starhotels Terminus",
+      "rate_type": "PI",
+      "rate_3star": 270.0,
+      "rate_4star": 380.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 2,
+      "hotel_3star": "Hotel Delle Nazioni",
+      "hotel_4star": "Hotel Grand Hotel Baglioni",
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 290.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Mestre",
+      "nights": 2,
+      "hotel_3star": "Venezia Hotel",
+      "hotel_4star": "Mestre, Hotel Plaza",
+      "rate_type": "PI",
+      "rate_3star": 145.0,
+      "rate_4star": 260.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Milan",
+      "nights": 2,
+      "hotel_3star": "43 Station Hotel",
+      "hotel_4star": "NYX Hotel Milan",
+      "rate_type": "PI",
+      "rate_3star": 150.0,
+      "rate_4star": 240.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Rome Airport to Rome Hotel, private transfer",
+          "rate_type": "PI",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Rome - Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Rome - Naples train ticket, II class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Rome Airport to Rome Hotel, private transfer",
+        "Day 2": "Rome - Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",
+        "Day 3": "Rome - Naples train ticket, II class"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1674.0,
+              "twin": 837.0,
+              "child": 348.192
+            },
+            "4star": {
+              "single": 2298.0,
+              "twin": 1149.0,
+              "child": 477.984
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1743.75,
+              "twin": 871.875,
+              "child": 362.7
+            },
+            "4star": {
+              "single": 2393.75,
+              "twin": 1196.875,
+              "child": 497.9
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1534.5,
+              "twin": 767.25,
+              "child": 319.176
+            },
+            "4star": {
+              "single": 2106.5,
+              "twin": 1053.25,
+              "child": 438.152
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1604.25,
+              "twin": 802.125,
+              "child": 333.684
+            },
+            "4star": {
+              "single": 2202.25,
+              "twin": 1101.125,
+              "child": 458.068
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 11",
+        "rate_type": "PI",
+        "rate": 11400.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 11",
+          "rate_type": "PI",
+          "rate": 11400.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Rome guided city tour, 3 hours (no entrances)",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 8",
+          "description": "Venice - private guided walking tour, 1.5 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 4": "Rome guided city tour, 3 hours (no entrances)",
+        "Day 8": "Venice - private guided walking tour, 1.5 hrs"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4110.0,
+                "4star": 4422.0
+              },
+              {
+                "pax": 10,
+                "3star": 3411.0,
+                "4star": 3723.0
+              },
+              {
+                "pax": 12,
+                "3star": 2945.0,
+                "4star": 3257.0
+              },
+              {
+                "pax": 14,
+                "3star": 2612.143,
+                "4star": 2924.143
+              },
+              {
+                "pax": 16,
+                "3star": 2362.5,
+                "4star": 2674.5
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4281.25,
+                "4star": 4606.25
+              },
+              {
+                "pax": 10,
+                "3star": 3553.125,
+                "4star": 3878.125
+              },
+              {
+                "pax": 12,
+                "3star": 3067.708,
+                "4star": 3392.708
+              },
+              {
+                "pax": 14,
+                "3star": 2720.982,
+                "4star": 3045.982
+              },
+              {
+                "pax": 16,
+                "3star": 2460.938,
+                "4star": 2785.938
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3767.5,
+                "4star": 4053.5
+              },
+              {
+                "pax": 10,
+                "3star": 3126.75,
+                "4star": 3412.75
+              },
+              {
+                "pax": 12,
+                "3star": 2699.583,
+                "4star": 2985.583
+              },
+              {
+                "pax": 14,
+                "3star": 2394.464,
+                "4star": 2680.464
+              },
+              {
+                "pax": 16,
+                "3star": 2165.625,
+                "4star": 2451.625
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3938.75,
+                "4star": 4237.75
+              },
+              {
+                "pax": 10,
+                "3star": 3268.875,
+                "4star": 3567.875
+              },
+              {
+                "pax": 12,
+                "3star": 2822.292,
+                "4star": 3121.292
+              },
+              {
+                "pax": 14,
+                "3star": 2503.304,
+                "4star": 2802.304
+              },
+              {
+                "pax": 16,
+                "3star": 2264.062,
+                "4star": 2563.062
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Italy from top to toe: Rome, Naples, Florence, Venice and Milan with Lake Como."
+}

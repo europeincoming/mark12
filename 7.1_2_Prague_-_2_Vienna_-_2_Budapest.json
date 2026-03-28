@@ -1,0 +1,405 @@
+{
+  "id": "5.2",
+  "region": "other",
+  "title": "2 Paris - 2 Bayeux - 2 Tours - 1 Paris",
+  "nights": null,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 296.0,
+      "rate_4star": 500.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Bayeux",
+      "nights": 2,
+      "hotel_3star": "ibis Bayeux Port en Bessin",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 400.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Tours",
+      "nights": 2,
+      "hotel_3star": "Kyriad tours centre",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 350.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Paris",
+      "nights": 1,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 150.0,
+      "rate_4star": 220.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 170.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Paris airport to Paris hotel private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1435.2,
+              "twin": 717.6,
+              "child": 298.522
+            },
+            "4star": {
+              "single": 1968.0,
+              "twin": 984.0,
+              "child": 409.344
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1495.0,
+              "twin": 747.5,
+              "child": 310.96
+            },
+            "4star": {
+              "single": 2050.0,
+              "twin": 1025.0,
+              "child": 426.4
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1315.6,
+              "twin": 657.8,
+              "child": 273.645
+            },
+            "4star": {
+              "single": 1804.0,
+              "twin": 902.0,
+              "child": 375.232
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1375.4,
+              "twin": 687.7,
+              "child": 286.083
+            },
+            "4star": {
+              "single": 1886.0,
+              "twin": 943.0,
+              "child": 392.288
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 7",
+        "rate_type": "PI",
+        "rate": 8800.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 7",
+          "rate_type": "PI",
+          "rate": 8800.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris city tour with local guide for 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hr",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Paris city tour with local guide for 3 hrs"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3305.1,
+                "4star": 3571.5
+              },
+              {
+                "pax": 10,
+                "3star": 2769.6,
+                "4star": 3036.0
+              },
+              {
+                "pax": 12,
+                "3star": 2412.6,
+                "4star": 2679.0
+              },
+              {
+                "pax": 14,
+                "3star": 2157.6,
+                "4star": 2424.0
+              },
+              {
+                "pax": 16,
+                "3star": 1966.35,
+                "4star": 2232.75
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3442.812,
+                "4star": 3720.312
+              },
+              {
+                "pax": 10,
+                "3star": 2885.0,
+                "4star": 3162.5
+              },
+              {
+                "pax": 12,
+                "3star": 2513.125,
+                "4star": 2790.625
+              },
+              {
+                "pax": 14,
+                "3star": 2247.5,
+                "4star": 2525.0
+              },
+              {
+                "pax": 16,
+                "3star": 2048.281,
+                "4star": 2325.781
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3029.675,
+                "4star": 3273.875
+              },
+              {
+                "pax": 10,
+                "3star": 2538.8,
+                "4star": 2783.0
+              },
+              {
+                "pax": 12,
+                "3star": 2211.55,
+                "4star": 2455.75
+              },
+              {
+                "pax": 14,
+                "3star": 1977.8,
+                "4star": 2222.0
+              },
+              {
+                "pax": 16,
+                "3star": 1802.488,
+                "4star": 2046.688
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3167.387,
+                "4star": 3422.687
+              },
+              {
+                "pax": 10,
+                "3star": 2654.2,
+                "4star": 2909.5
+              },
+              {
+                "pax": 12,
+                "3star": 2312.075,
+                "4star": 2567.375
+              },
+              {
+                "pax": 14,
+                "3star": 2067.7,
+                "4star": 2323.0
+              },
+              {
+                "pax": 16,
+                "3star": 1884.419,
+                "4star": 2139.719
+              }
+            ]
+          }
+        }
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Paris airport to Paris hotel private transfer",
+        "rate": 170.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 170.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Pickup rental car in Paris, SUV class 5 seat car, Automatic",
+          "rate_type": "PI",
+          "rate": 500.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Paris airport to Paris hotel private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2035.2,
+              "twin": 1017.6,
+              "child": 423.322
+            },
+            "4star": {
+              "single": 2568.0,
+              "twin": 1284.0,
+              "child": 534.144
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2120.0,
+              "twin": 1060.0,
+              "child": 440.96
+            },
+            "4star": {
+              "single": 2675.0,
+              "twin": 1337.5,
+              "child": 556.4
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1865.6,
+              "twin": 932.8,
+              "child": 388.045
+            },
+            "4star": {
+              "single": 2354.0,
+              "twin": 1177.0,
+              "child": 489.632
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1950.4,
+              "twin": 975.2,
+              "child": 405.683
+            },
+            "4star": {
+              "single": 2461.0,
+              "twin": 1230.5,
+              "child": 511.888
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Normandy's D-Day coast and the Loire Valley's Renaissance châteaux on a circular tour from Paris."
+}

@@ -1,0 +1,416 @@
+{
+  "id": "2.5",
+  "region": "western-central-europe",
+  "title": "2 Amsterdam - 2 Paris - 3 Lucerne - 2 Venice - 1 Florence - 2 Rome",
+  "nights": 12,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Amsterdam",
+      "nights": 2,
+      "hotel_3star": "ibis Amsterdam City West",
+      "hotel_4star": "Mercure Amsterdam City Hotel",
+      "rate_type": "PI",
+      "rate_3star": 420.0,
+      "rate_4star": 540.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Londres et New York",
+      "hotel_4star": "Mercure Paris Montmartre Sacre Coeur",
+      "rate_type": "PI",
+      "rate_3star": 380.0,
+      "rate_4star": 500.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Lucerne",
+      "nights": 3,
+      "hotel_3star": "De la Paix",
+      "hotel_4star": "Hotel Monopol",
+      "rate_type": "PI",
+      "rate_3star": 540.0,
+      "rate_4star": 750.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Mestre Venice",
+      "nights": 2,
+      "hotel_3star": "Hotel Aaron",
+      "hotel_4star": "Hotel Plaza",
+      "rate_type": "PI",
+      "rate_3star": 260.0,
+      "rate_4star": 320.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 1,
+      "hotel_3star": "Diana Park Hotel",
+      "hotel_4star": "Hotel Diplomat",
+      "rate_type": "PI",
+      "rate_3star": 170.0,
+      "rate_4star": 240.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Nord Nuova",
+      "hotel_4star": "Palladium Palace",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 440.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Amsterdam airport to Amsterdam hotel private transfer",
+          "rate_type": "PI",
+          "rate": 90.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Windmills, Volendam cheese factory coach tour, 5.5 hrs",
+          "rate_type": "PP",
+          "rate": 59.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Amsterdam to Paris train ticket, II class",
+          "rate_type": "PP",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+          "rate_type": "PP",
+          "rate": 99.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Paris to Lucerne train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 4 days , II Class",
+          "rate_type": "PP",
+          "rate": 281.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Amsterdam airport to Amsterdam hotel private transfer",
+        "Day 2": "Windmills, Volendam cheese factory coach tour, 5.5 hrs",
+        "Day 3": "Amsterdam to Paris train ticket, II class",
+        "Day 4": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+        "Day 5": "Paris to Lucerne train ticket, II Class",
+        "Day 6": "Titlis with pass, Lake Lucerne cruise free with pass"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 4437.6,
+              "twin": 2218.8,
+              "child": 923.021
+            },
+            "4star": {
+              "single": 5277.6,
+              "twin": 2638.8,
+              "child": 1097.741
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 4622.5,
+              "twin": 2311.25,
+              "child": 961.48
+            },
+            "4star": {
+              "single": 5497.5,
+              "twin": 2748.75,
+              "child": 1143.48
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 4067.8,
+              "twin": 2033.9,
+              "child": 846.102
+            },
+            "4star": {
+              "single": 4837.8,
+              "twin": 2418.9,
+              "child": 1006.262
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 4252.7,
+              "twin": 2126.35,
+              "child": 884.562
+            },
+            "4star": {
+              "single": 5057.7,
+              "twin": 2528.85,
+              "child": 1052.002
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 13",
+        "rate_type": "PI",
+        "rate": 12600.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 13",
+          "rate_type": "PI",
+          "rate": 12600.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Canal cruise + volendam maarken",
+          "rate_type": "PP",
+          "rate": 29.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Paris panoramic tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hour",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 9",
+          "description": "Venice walking tour, 2 hrs with english speaking guide",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 12",
+          "description": "Rome city tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Canal cruise + volendam maarken",
+        "Day 4": "Paris panoramic tour with English speaking guide, 3 hrs",
+        "Day 6": "Titlis and Engelberg",
+        "Day 9": "Venice walking tour, 2 hrs with english speaking guide",
+        "Day 12": "Rome city tour with English speaking guide, 3 hrs"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 5292.9,
+                "4star": 5712.9
+              },
+              {
+                "pax": 10,
+                "3star": 4514.4,
+                "4star": 4934.4
+              },
+              {
+                "pax": 12,
+                "3star": 3995.4,
+                "4star": 4415.4
+              },
+              {
+                "pax": 14,
+                "3star": 3624.686,
+                "4star": 4044.686
+              },
+              {
+                "pax": 16,
+                "3star": 3346.65,
+                "4star": 3766.65
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 5513.438,
+                "4star": 5950.938
+              },
+              {
+                "pax": 10,
+                "3star": 4702.5,
+                "4star": 5140.0
+              },
+              {
+                "pax": 12,
+                "3star": 4161.875,
+                "4star": 4599.375
+              },
+              {
+                "pax": 14,
+                "3star": 3775.714,
+                "4star": 4213.214
+              },
+              {
+                "pax": 16,
+                "3star": 3486.094,
+                "4star": 3923.594
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4851.825,
+                "4star": 5236.825
+              },
+              {
+                "pax": 10,
+                "3star": 4138.2,
+                "4star": 4523.2
+              },
+              {
+                "pax": 12,
+                "3star": 3662.45,
+                "4star": 4047.45
+              },
+              {
+                "pax": 14,
+                "3star": 3322.629,
+                "4star": 3707.629
+              },
+              {
+                "pax": 16,
+                "3star": 3067.763,
+                "4star": 3452.763
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 5072.362,
+                "4star": 5474.862
+              },
+              {
+                "pax": 10,
+                "3star": 4326.3,
+                "4star": 4728.8
+              },
+              {
+                "pax": 12,
+                "3star": 3828.925,
+                "4star": 4231.425
+              },
+              {
+                "pax": 14,
+                "3star": 3473.657,
+                "4star": 3876.157
+              },
+              {
+                "pax": 16,
+                "3star": 3207.206,
+                "4star": 3609.706
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Six countries, twelve nights: Amsterdam, Paris, Lucerne, Venice, Florence and Rome."
+}

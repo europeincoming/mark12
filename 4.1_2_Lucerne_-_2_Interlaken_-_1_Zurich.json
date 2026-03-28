@@ -1,0 +1,431 @@
+{
+  "id": "1.4",
+  "region": "uk-ireland",
+  "title": "2 Edinburgh - 2 Inverness - 1 Fort William -  1 Edinburgh",
+  "nights": 6,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Edinburgh",
+      "nights": 2,
+      "hotel_3star": "- Holiday Inn Express Edinburgh City Centre",
+      "hotel_4star": "Apex City of Edinburgh Hotel",
+      "rate_type": "PI",
+      "rate_3star": 330.0,
+      "rate_4star": 350.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Inverness",
+      "nights": 2,
+      "hotel_3star": "- Royal Highland Hotel",
+      "hotel_4star": "Blackfriars Inverness",
+      "rate_type": "PI",
+      "rate_3star": 233.0,
+      "rate_4star": 285.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Fort William",
+      "nights": 1,
+      "hotel_3star": "- Premier Inn Fort William hotel",
+      "hotel_4star": "The Garrison Hotel",
+      "rate_type": "PI",
+      "rate_3star": 170.0,
+      "rate_4star": 210.0,
+      "currency": "GBP"
+    },
+    {
+      "city": "Glasgow",
+      "nights": 1,
+      "hotel_3star": "- Holiday Inn Express Glasgow - City Ctr Riverside",
+      "hotel_4star": "Novotel Glasgow Centre",
+      "rate_type": "PI",
+      "rate_3star": 80.0,
+      "rate_4star": 95.0,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Edinburgh airport to Edinburgh hotel private transfer",
+          "rate_type": "PI",
+          "rate": 80.0,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Edinburgh airport to Edinburgh hotel private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1071.6,
+              "twin": 535.8,
+              "child": 222.893
+            },
+            "4star": {
+              "single": 1224.0,
+              "twin": 612.0,
+              "child": 254.592
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1116.25,
+              "twin": 558.125,
+              "child": 232.18
+            },
+            "4star": {
+              "single": 1275.0,
+              "twin": 637.5,
+              "child": 265.2
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 982.3,
+              "twin": 491.15,
+              "child": 204.318
+            },
+            "4star": {
+              "single": 1122.0,
+              "twin": 561.0,
+              "child": 233.376
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1026.95,
+              "twin": 513.475,
+              "child": 213.606
+            },
+            "4star": {
+              "single": 1173.0,
+              "twin": 586.5,
+              "child": 243.984
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach for 3 hrs on Day 2 & on disposal from Day 3  till Day 6 (8 hrs)",
+        "rate_type": "PI",
+        "rate": 4250.0,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach for 3 hrs on Day 2 & on disposal from Day 3  till Day 6 (8 hrs)",
+          "rate_type": "PI",
+          "rate": 4250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 1",
+          "description": "Edinburgh airport to Edinburgh hotel private transfer",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "Edinburgh panoramic tour/3 hrs, no guide",
+          "rate_type": "PP",
+          "rate": 250.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 3",
+          "description": "Edinburgh to Inverness, enroute Loch Ness and highlands",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 4",
+          "description": "Skye excursion",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 6",
+          "description": "Fort William to Glasgow. Enroute Loch Lomond",
+          "rate_type": "PP",
+          "rate": 0.0,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 7",
+          "description": "Glasgow hotel to Glasgow airport private transfer",
+          "rate_type": "PI",
+          "rate": 0.0,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Edinburgh airport to Edinburgh hotel private transfer",
+        "Day 2": "Edinburgh panoramic tour/3 hrs, no guide",
+        "Day 3": "Edinburgh to Inverness, enroute Loch Ness and highlands",
+        "Day 4": "Skye excursion",
+        "Day 6": "Fort William to Glasgow. Enroute Loch Lomond",
+        "Day 7": "Glasgow hotel to Glasgow airport private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2110.8,
+                "4star": 2187.0
+              },
+              {
+                "pax": 10,
+                "3star": 1855.8,
+                "4star": 1932.0
+              },
+              {
+                "pax": 12,
+                "3star": 1685.8,
+                "4star": 1762.0
+              },
+              {
+                "pax": 14,
+                "3star": 1564.371,
+                "4star": 1640.571
+              },
+              {
+                "pax": 16,
+                "3star": 1473.3,
+                "4star": 1549.5
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2198.75,
+                "4star": 2278.125
+              },
+              {
+                "pax": 10,
+                "3star": 1933.125,
+                "4star": 2012.5
+              },
+              {
+                "pax": 12,
+                "3star": 1756.042,
+                "4star": 1835.417
+              },
+              {
+                "pax": 14,
+                "3star": 1629.554,
+                "4star": 1708.929
+              },
+              {
+                "pax": 16,
+                "3star": 1534.688,
+                "4star": 1614.062
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 1934.9,
+                "4star": 2004.75
+              },
+              {
+                "pax": 10,
+                "3star": 1701.15,
+                "4star": 1771.0
+              },
+              {
+                "pax": 12,
+                "3star": 1545.317,
+                "4star": 1615.167
+              },
+              {
+                "pax": 14,
+                "3star": 1434.007,
+                "4star": 1503.857
+              },
+              {
+                "pax": 16,
+                "3star": 1350.525,
+                "4star": 1420.375
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2022.85,
+                "4star": 2095.875
+              },
+              {
+                "pax": 10,
+                "3star": 1778.475,
+                "4star": 1851.5
+              },
+              {
+                "pax": 12,
+                "3star": 1615.558,
+                "4star": 1688.583
+              },
+              {
+                "pax": 14,
+                "3star": 1499.189,
+                "4star": 1572.214
+              },
+              {
+                "pax": 16,
+                "3star": 1411.912,
+                "4star": 1484.937
+              }
+            ]
+          }
+        }
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Arrive Edinburgh airport. Pickup rental car SUV class Ford Kuga / similar",
+        "rate": 580.0,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Arrive Edinburgh airport. Pickup rental car SUV class Ford Kuga / similar",
+          "rate_type": "PI",
+          "rate": 580.0,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Arrive Edinburgh airport. Pickup rental car SUV class Ford Kuga / similar"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1671.6,
+              "twin": 835.8,
+              "child": 347.693
+            },
+            "4star": {
+              "single": 1824.0,
+              "twin": 912.0,
+              "child": 379.392
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1741.25,
+              "twin": 870.625,
+              "child": 362.18
+            },
+            "4star": {
+              "single": 1900.0,
+              "twin": 950.0,
+              "child": 395.2
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1532.3,
+              "twin": 766.15,
+              "child": 318.718
+            },
+            "4star": {
+              "single": 1672.0,
+              "twin": 836.0,
+              "child": 347.776
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1601.95,
+              "twin": 800.975,
+              "child": 333.206
+            },
+            "4star": {
+              "single": 1748.0,
+              "twin": 874.0,
+              "child": 363.584
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Edinburgh, the Highlands and the Isle of Skye — six nights, three regions, one of Europe's most dramatic self-drive routes."
+}

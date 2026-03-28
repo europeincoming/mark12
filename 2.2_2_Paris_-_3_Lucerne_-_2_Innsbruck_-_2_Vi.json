@@ -1,0 +1,396 @@
+{
+  "id": "2.4",
+  "region": "western-central-europe",
+  "title": "2 Amsterdam - 2 Paris - 3 Lucerne - 1 Zurich",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Amsterdam",
+      "nights": 2,
+      "hotel_3star": "WestCord Art Hotel Amsterdam",
+      "hotel_4star": "Leonardo Hotel Amsterdam City Center",
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 260.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": "Marceau Bastille",
+      "rate_type": "PI",
+      "rate_3star": 296.0,
+      "rate_4star": 355.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Lucerne",
+      "nights": 3,
+      "hotel_3star": "Boutique Hotel Karl",
+      "hotel_4star": "Altstadt Hotel Krone Apartments Luzern",
+      "rate_type": "PI",
+      "rate_3star": 480.0,
+      "rate_4star": 750.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Zurich",
+      "nights": 1,
+      "hotel_3star": "Montana Hotel",
+      "hotel_4star": "Züri by Fassbind",
+      "rate_type": "PI",
+      "rate_3star": 145.0,
+      "rate_4star": 185.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Amsterdam airport to Amsterdam hotel private transfer",
+          "rate_type": "PI",
+          "rate": 90.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Windmills, Volendam cheese factory coach tour, 5.5 hrs",
+          "rate_type": "PP",
+          "rate": 62.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Amsterdam to Paris train ticket, II class",
+          "rate_type": "PP",
+          "rate": 160.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+          "rate_type": "PP",
+          "rate": 89.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Paris to Lucerne train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 4 days , II Class",
+          "rate_type": "PP",
+          "rate": 233.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 58.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Amsterdam airport to Amsterdam hotel private transfer",
+        "Day 2": "Windmills, Volendam cheese factory coach tour, 5.5 hrs",
+        "Day 3": "Amsterdam to Paris train ticket, II class",
+        "Day 4": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+        "Day 5": "Paris to Lucerne train ticket, II Class",
+        "Day 6": "Titlis with pass, Lake Lucerne cruise free with pass"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 3270.0,
+              "twin": 1635.0,
+              "child": 680.16
+            },
+            "4star": {
+              "single": 3748.8,
+              "twin": 1874.4,
+              "child": 779.75
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 3406.25,
+              "twin": 1703.125,
+              "child": 708.5
+            },
+            "4star": {
+              "single": 3905.0,
+              "twin": 1952.5,
+              "child": 812.24
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2997.5,
+              "twin": 1498.75,
+              "child": 623.48
+            },
+            "4star": {
+              "single": 3436.4,
+              "twin": 1718.2,
+              "child": 714.771
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 3133.75,
+              "twin": 1566.875,
+              "child": 651.82
+            },
+            "4star": {
+              "single": 3592.6,
+              "twin": 1796.3,
+              "child": 747.261
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach for 5 hrs on Day 2 & on disposal for 8 hrs from Day 3 till Day 8",
+        "rate_type": "PI",
+        "rate": 8250.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach for 5 hrs on Day 2 & on disposal for 8 hrs from Day 3 till Day 8",
+          "rate_type": "PI",
+          "rate": 8250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Amsterdam airport to Amsterdam hotel private transfer",
+          "rate_type": "PI",
+          "rate": 95.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Canal cruise + volendam maarken",
+          "rate_type": "PP",
+          "rate": 35.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Paris panoramic tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hour",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 9",
+          "description": "Zurich hotel to Zurich airport private transfer",
+          "rate_type": "PI",
+          "rate": 145.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Amsterdam airport to Amsterdam hotel private transfer",
+        "Day 2": "Canal cruise + volendam maarken",
+        "Day 4": "Paris panoramic tour with English speaking guide, 3 hrs",
+        "Day 6": "Titlis and Engelberg",
+        "Day 9": "Zurich hotel to Zurich airport private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3398.7,
+                "4star": 3638.1
+              },
+              {
+                "pax": 10,
+                "3star": 2889.0,
+                "4star": 3128.4
+              },
+              {
+                "pax": 12,
+                "3star": 2549.2,
+                "4star": 2788.6
+              },
+              {
+                "pax": 14,
+                "3star": 2306.486,
+                "4star": 2545.886
+              },
+              {
+                "pax": 16,
+                "3star": 2124.45,
+                "4star": 2363.85
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3540.312,
+                "4star": 3789.688
+              },
+              {
+                "pax": 10,
+                "3star": 3009.375,
+                "4star": 3258.75
+              },
+              {
+                "pax": 12,
+                "3star": 2655.417,
+                "4star": 2904.792
+              },
+              {
+                "pax": 14,
+                "3star": 2402.589,
+                "4star": 2651.964
+              },
+              {
+                "pax": 16,
+                "3star": 2212.969,
+                "4star": 2462.344
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3115.475,
+                "4star": 3334.925
+              },
+              {
+                "pax": 10,
+                "3star": 2648.25,
+                "4star": 2867.7
+              },
+              {
+                "pax": 12,
+                "3star": 2336.767,
+                "4star": 2556.217
+              },
+              {
+                "pax": 14,
+                "3star": 2114.279,
+                "4star": 2333.729
+              },
+              {
+                "pax": 16,
+                "3star": 1947.413,
+                "4star": 2166.863
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3257.087,
+                "4star": 3486.512
+              },
+              {
+                "pax": 10,
+                "3star": 2768.625,
+                "4star": 2998.05
+              },
+              {
+                "pax": 12,
+                "3star": 2442.983,
+                "4star": 2672.408
+              },
+              {
+                "pax": 14,
+                "3star": 2210.382,
+                "4star": 2439.807
+              },
+              {
+                "pax": 16,
+                "3star": 2035.931,
+                "4star": 2265.356
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Amsterdam's golden age canals, Parisian boulevards and Switzerland's mountain railways in a single journey."
+}

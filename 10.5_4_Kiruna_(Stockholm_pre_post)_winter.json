@@ -1,0 +1,375 @@
+{
+  "id": "3.1",
+  "region": "italy",
+  "title": "2 Venice - 2 Florence - 2 Rome",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Mestre",
+      "nights": 2,
+      "hotel_3star": "Venezia Mestre",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 145.0,
+      "rate_4star": 260.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Florence",
+      "nights": 2,
+      "hotel_3star": "Hotel Delle Nazioni",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 290.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Rome",
+      "nights": 2,
+      "hotel_3star": "Hotel Windrose",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 230.0,
+      "rate_4star": 375.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Venice Airport - Mestre Hotel private transfer",
+          "rate_type": "PI",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Venice - Small group walking tour, 1.5 hrs",
+          "rate_type": "PP",
+          "rate": 35.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Venice - Florence train ticket, II class",
+          "rate_type": "PP",
+          "rate": 55.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Florence - Full day trip to Tuscany, Siena-San Gimignano with lunch & wine tasting, 11.5 hrs regular coach",
+          "rate_type": "PP",
+          "rate": 95.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Florence - Rome train ticket, II class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Rome - Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Rome hotel to Rome airport, private transfer",
+          "rate_type": "PI",
+          "rate": 120.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Venice Airport - Mestre Hotel private transfer",
+        "Day 2": "Venice - Small group walking tour, 1.5 hrs",
+        "Day 3": "Venice - Florence train ticket, II class",
+        "Day 4": "Florence - Full day trip to Tuscany, Siena-San Gimignano with lunch & wine tasting, 11.5 hrs regular coach",
+        "Day 5": "Florence - Rome train ticket, II class",
+        "Day 6": "Rome - Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",
+        "Day 7": "Rome hotel to Rome airport, private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1674.0,
+              "twin": 837.0,
+              "child": 348.192
+            },
+            "4star": {
+              "single": 2058.0,
+              "twin": 1029.0,
+              "child": 428.064
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1743.75,
+              "twin": 871.875,
+              "child": 362.7
+            },
+            "4star": {
+              "single": 2143.75,
+              "twin": 1071.875,
+              "child": 445.9
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1534.5,
+              "twin": 767.25,
+              "child": 319.176
+            },
+            "4star": {
+              "single": 1886.5,
+              "twin": 943.25,
+              "child": 392.392
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1604.25,
+              "twin": 802.125,
+              "child": 333.684
+            },
+            "4star": {
+              "single": 1972.25,
+              "twin": 986.125,
+              "child": 410.228
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 3 till Day 7",
+        "rate_type": "PI",
+        "rate": 5700.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 3 till Day 7",
+          "rate_type": "PI",
+          "rate": 5700.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Venice to Mestre Hotel private transfer",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Venice - Walking tour, 2 hrs english speaking guide",
+          "rate_type": "PI",
+          "rate": 520.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Rome city tour 3 hrs w/ english lang guide, no entrances",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Venice to Mestre Hotel private transfer",
+        "Day 2": "Venice - Walking tour, 2 hrs english speaking guide",
+        "Day 6": "Rome city tour 3 hrs w/ english lang guide, no entrances"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2248.5,
+                "4star": 2440.5
+              },
+              {
+                "pax": 10,
+                "3star": 1883.4,
+                "4star": 2075.4
+              },
+              {
+                "pax": 12,
+                "3star": 1640.0,
+                "4star": 1832.0
+              },
+              {
+                "pax": 14,
+                "3star": 1466.143,
+                "4star": 1658.143
+              },
+              {
+                "pax": 16,
+                "3star": 1335.75,
+                "4star": 1527.75
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2342.188,
+                "4star": 2542.188
+              },
+              {
+                "pax": 10,
+                "3star": 1961.875,
+                "4star": 2161.875
+              },
+              {
+                "pax": 12,
+                "3star": 1708.333,
+                "4star": 1908.333
+              },
+              {
+                "pax": 14,
+                "3star": 1527.232,
+                "4star": 1727.232
+              },
+              {
+                "pax": 16,
+                "3star": 1391.406,
+                "4star": 1591.406
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2061.125,
+                "4star": 2237.125
+              },
+              {
+                "pax": 10,
+                "3star": 1726.45,
+                "4star": 1902.45
+              },
+              {
+                "pax": 12,
+                "3star": 1503.333,
+                "4star": 1679.333
+              },
+              {
+                "pax": 14,
+                "3star": 1343.964,
+                "4star": 1519.964
+              },
+              {
+                "pax": 16,
+                "3star": 1224.438,
+                "4star": 1400.438
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2154.812,
+                "4star": 2338.812
+              },
+              {
+                "pax": 10,
+                "3star": 1804.925,
+                "4star": 1988.925
+              },
+              {
+                "pax": 12,
+                "3star": 1571.667,
+                "4star": 1755.667
+              },
+              {
+                "pax": 14,
+                "3star": 1405.054,
+                "4star": 1589.054
+              },
+              {
+                "pax": 16,
+                "3star": 1280.094,
+                "4star": 1464.094
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "Rome - Colosseum admission ticket",
+      "rate": 35.0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Rome - Vatican Museum admission ticket",
+      "rate": 45.0,
+      "currency": "EUR"
+    }
+  ],
+  "description": "Venice, Tuscany and Rome — a week in Italy's three great cities with a full-day trip through the Sienese countryside."
+}

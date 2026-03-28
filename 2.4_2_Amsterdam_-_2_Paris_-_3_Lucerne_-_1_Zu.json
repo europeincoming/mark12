@@ -1,0 +1,163 @@
+country,city,description,category,inclusion,rate_type,rate,currency
+United Kingdom,London,Hop on Hop off 1 day pass with one way Thames river cruise,sightseeing,core,PP,38,GBP
+United Kingdom,London,"London to Manchester train ticket, II Class",train,core,PP,75,GBP
+United Kingdom,London,"London to Glasgow train ticket, II Class",train,core,PP,90,GBP
+United Kingdom,Manchester,"Manchester to Edinburgh train ticket, II Class",train,core,PP,65,GBP
+United Kingdom,Manchester,Manchester United / Old Trafford visit,entrance,core,PP,30,GBP
+United Kingdom,Edinburgh,"Edinburgh to Inverness train ticket, II Class",train,core,PP,60,GBP
+United Kingdom,Edinburgh,Edinburgh Hop on Hop off 1 day,sightseeing,core,PP,20,GBP
+United Kingdom,Edinburgh,"Edinburgh to Glasgow train ticket, II Class",train,core,PP,60,GBP
+United Kingdom,Inverness,"Isle of Skye & Eilean Donan Castle, 12 hour regular coach",group_excursion,core,PP,77,GBP
+United Kingdom,Inverness,"Inverness to Glasgow train ticket, II Class",train,core,PP,60,GBP
+United Kingdom,Inverness,Inverness to Fort William bus ticket,train,core,PP,25,GBP
+United Kingdom,Inverness,"Inverness to Edinburgh train ticket, II Class",train,core,PP,80,GBP
+United Kingdom,Fort William,"Fort William to Glasgow train ticket, II Class",train,core,PP,65,GBP
+United Kingdom,Belfast,Belfast Hop on Hop off Tour - 1 Day,sightseeing,core,PP,10,GBP
+United Kingdom,Belfast,Titanic Belfast Entrance Ticket,entrance,core,PP,25,GBP
+United Kingdom,Belfast,Belfast to Dublin - 2nd class train ticket,train,core,PP,20,GBP
+Ireland,Dublin,Dublin Hop on Hop off 1 day ticket,sightseeing,core,PP,30,GBP
+Ireland,Dublin,"Dublin to Limerick train ticket, II Class",train,core,PP,40,EUR
+Ireland,Dublin,"Limerick to Dublin train ticket, II Class",train,core,PP,40,EUR
+Ireland,Limerick,"Cliffs of Moher Tour from Limerick, 7 hrs regular coach",group_excursion,core,PP,64,EUR
+France,Paris,"Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",group_excursion,core,PP,99,EUR
+France,Paris,"Paris to Lucerne train ticket, II Class",train,core,PP,140,EUR
+France,Paris,"Paris Montmartre food tour, 4 hrs walking",group_excursion,core,PP,180,EUR
+France,Paris,Moulin Rouge with drinks 9pm,sightseeing,core,PP,185,EUR
+France,Paris,Louvre Museum (Audioguide included),entrance,core,PP,25,EUR
+France,Paris,"Paris to Avignon train ticket, II Class",train,core,PP,60,EUR
+France,Paris,"Paris to Bayeux train ticket, II Class",train,core,PP,50,EUR
+France,Avignon,"Avignon to Aix train ticket, II Class",train,core,PP,30,EUR
+France,Avignon,"Half day Châteauneuf-du-Pape wineries AM/PM group, 4 hrs",group_excursion,core,PP,90,EUR
+France,Avignon,"Half day Saint Remy-Les Baux de Provence with Pont du Gard, group 5 hrs",group_excursion,core,PP,85,EUR
+France,Avignon,Wine tasting at a local winery in Châteauneuf-du-Pape,entrance,core,PP,30,EUR
+France,Aix en Provence,"Aix to Nice train ticket, II Class",train,core,PP,55,EUR
+France,Aix en Provence,"Wine tour to Côtes de Provence Sainte-Victoire vineyards, group 3.5 hrs",group_excursion,core,PP,95,EUR
+France,Aix en Provence,Wine tasting at a local winery in Luberon,entrance,core,PP,30,EUR
+France,Aix en Provence,"Cassis & Calanques tour, group 4 hrs",group_excursion,core,PP,75,EUR
+France,Nice,"Best of the Riviera day trip, group, 8 hrs",group_excursion,core,PP,90,EUR
+France,Nice,"Boat tour from Marseille, 4 hrs Côte Bleue Marine Park",group_excursion,core,PP,75,EUR
+France,Bayeux,"Bayeux to Tours train, II Class",train,core,PP,70,EUR
+France,Bayeux,"D-Day U.S Sector & Omaha Beach half-day tour, 4 hrs",group_excursion,core,PP,95,EUR
+France,Tours,"Tours to Paris train ticket, II Class",train,core,PP,50,EUR
+France,Tours,"Mont Saint Michel Village & Abbey tour, 8 hrs",group_excursion,core,PP,170,EUR
+France,Tours,"Loire Valley Wine Tour to Vouvray - Afternoon, 4 hrs",group_excursion,core,PP,95,EUR
+France,Tours,"Chenonceau & Chambord Castles tour, 8 hrs",group_excursion,core,PP,170,EUR
+France,Tours,Visit a Loire vineyard with tasting,entrance,core,PP,35,EUR
+France,Tours,Tickets to Royal Fortress of Chinon,entrance,core,PP,15,EUR
+France,Porto-Ota,"Morning boat tour of Scandola reserve, Calanques de Piana, Capo Rosso & Girolata with swimming, 3.5 hrs",group_excursion,core,PP,72,EUR
+France,Bonifacio,"Half day boat tour to Lavezzi Islands & caves with swimming, 4 hrs",group_excursion,core,PP,98,EUR
+France,Ajaccio,Maison Bonaparte admission ticket (Napoleon's birthplace),entrance,core,PP,7,EUR
+Switzerland,Lucerne,"Swiss travel pass, consecutive 4 days, II Class",rail_pass,core,PP,233,EUR
+Switzerland,Lucerne,"Swiss travel pass, consecutive 8 days, II Class",rail_pass,core,PP,340,EUR
+Switzerland,Lucerne,"Swiss pass, 3 days II Class consecutive",rail_pass,core,PP,232,EUR
+Switzerland,Lucerne,"Titlis with pass, Lake Lucerne cruise free with pass",sightseeing,core,PP,70,EUR
+Switzerland,Zurich,"Zurich airport departure, no service",train,core,PI,145,EUR
+Switzerland,Innsbruck,"Lucerne to Innsbruck train, II Class",train,core,PP,90,EUR
+Switzerland,Innsbruck,Swarovski Crystal World entrance + shuttle bus ticket,entrance,core,PP,35,EUR
+Switzerland,Innsbruck,"Innsbruck to Vienna train, II Class",train,core,PP,110,EUR
+Austria,Vienna,"Vienna city tour with Schönbrunn Palace, 3.5h coach tour",group_excursion,core,PP,69,EUR
+Austria,Vienna,"Vienna to Budapest train ticket, II Class",train,core,PP,50,EUR
+Italy,Venice,"Lucerne to Venice train, II Class (two changes)",train,core,PP,128,EUR
+Italy,Venice,"Venice walking tour small group, 1.5 hrs",group_excursion,core,PP,35,EUR
+Italy,Venice,"Venice to Florence train, II Class",train,core,PP,55,EUR
+Italy,Florence,"Florence to Rome train, II Class",train,core,PP,55,EUR
+Italy,Florence,"Full day trip to Tuscany, Siena-San Gimignano with lunch & wine tasting, 11.5 hrs regular coach",group_excursion,core,PP,95,EUR
+Italy,Florence,"Florence to Venice train, II Class",train,core,PP,55,EUR
+Italy,Rome,"Colosseum-Roman Forum walking tour, small group 2.5 hrs",group_excursion,core,PP,85,EUR
+Italy,Rome,"Rome to Naples train ticket, II Class",train,core,PP,50,EUR
+Italy,Naples,"Naples to Florence train ticket, II Class",train,core,PP,65,EUR
+Italy,Venice,"Venice to Milan train, II Class",train,core,PP,50,EUR
+Italy,Milan,"Day trip to Lake Como and Bellagio, 10 hrs coach tour",group_excursion,core,PP,105,EUR
+Italy,Villasimius,"Boat excursion in the Marine Park of Villasimius, 3 hrs",group_excursion,core,PP,75.6,EUR
+Italy,Cala Gonone,"Boat excursion to Gulf of Orosei, 7 hrs",group_excursion,core,PP,115.0,EUR
+Italy,Alghero,Alghero ticket (includes admission to 13 attractions incl. Neptune's Cave),entrance,core,PP,40.25,EUR
+Italy,Alghero,"Dolphin watching and snorkeling boat tour, 4 hrs (June-Sept only)",group_excursion,core,PP,74.75,EUR
+Netherlands,Amsterdam,"Windmills, Volendam cheese factory coach tour, 5.5 hrs",group_excursion,core,PP,62,EUR
+Netherlands,Amsterdam,"Amsterdam to Paris train ticket, II Class",train,core,PP,160,EUR
+Netherlands,Amsterdam,Anne Frank Museum,entrance,core,PP,0,EUR
+Netherlands,Amsterdam,Van Gogh Museum,entrance,core,PP,0,EUR
+Netherlands,Amsterdam,Amsterdam Canal Cruise,sightseeing,core,PP,0,EUR
+Netherlands,Amsterdam,Rijksmuseum,entrance,core,PP,0,EUR
+Netherlands,Delft,Royal Delft Museum & Factory,entrance,core,PP,0,EUR
+Belgium,Bruges,"Bruges Museums card (Belfry Tower, St John medieval hospital, Town hall & more)",entrance,core,PP,0,EUR
+Belgium,Ypres,In the Flanders Fields Museum WW1,entrance,core,PP,0,EUR
+Belgium,Ghent,"Ghent city card - Castle of the Counts, Belfry & more museums",entrance,core,PP,0,EUR
+Belgium,Brussels,Chocolate Museum,entrance,core,PP,0,EUR
+Spain,Madrid,"Madrid city tour with Royal Palace, 4.5 hrs",group_excursion,core,PP,65,EUR
+Spain,Madrid,"Madrid to Granada train ticket, II Class",train,core,PP,75,EUR
+Spain,Granada,"Guided Tour to the Alhambra & Generalife Gardens, 3 hrs walking",group_excursion,core,PP,75,EUR
+Spain,Granada,"Granada to Seville train, II Class",train,core,PP,75,EUR
+Spain,Seville,"Historic Seville walking tour with Royal Alcazar, 2 hrs",group_excursion,core,PP,40,EUR
+Spain,Seville,"Seville to Barcelona train ticket, II Class",train,core,PP,95,EUR
+Spain,Seville,Seville Flamenco Show Ticket without dinner,entrance,core,PP,50,EUR
+Spain,Barcelona,Sagrada Familia ticket,entrance,core,PP,52,EUR
+Czech Republic,Prague,"Grand City Tour of Prague with Prague Castle and 1 hr River Vltava cruise, 4 hrs",group_excursion,core,PP,54,EUR
+Czech Republic,Prague,"Prague to Vienna train ticket, II Class",train,core,PP,50,EUR
+Czech Republic,Prague,Prague Hop on Hop off 1 Day,sightseeing,core,PP,35,EUR
+Czech Republic,Prague,"Prague to Salzburg train ticket, II Class",train,core,PP,55,EUR
+Austria,Salzburg,Salzburg Hop on Hop off 1 Day,sightseeing,core,PP,30,EUR
+Austria,Salzburg,"Salzburg to Vienna train ticket, II Class",train,core,PP,50,EUR
+Austria,Vienna,Vienna Hop on Hop off 1 Day,sightseeing,core,PP,35,EUR
+Hungary,Budapest,"Budapest Grand City Tour, 3 hrs",group_excursion,core,PP,35,EUR
+Hungary,Budapest,Budapest Hop on Hop off 1 Day,sightseeing,core,PP,35,EUR
+Denmark,Copenhagen,"Copenhagen Hop on Hop off + ferry to Oslo, 24 hrs",sightseeing,core,PP,279,DKK
+Norway,Oslo,Oslo Hop on Hop off 24 hrs,sightseeing,core,PP,495,NOK
+Norway,Oslo,"Oslo to Stockholm train, II Class",train,core,PP,1050,SEK
+Sweden,Stockholm,"Archipelago Tour with Guide, 2.5 hrs + ferry to Helsinki",group_excursion,core,PP,380,SEK
+Finland,Helsinki,Helsinki Panorama Sightseeing 1.5 hrs (Winter) / Hop on Hop off + Canal Cruise 24 hr (Summer),sightseeing,core,PP,50,EUR
+Finland,Rovaniemi,Visit a Reindeer Farm and 1 hr Safari,group_excursion,core,PP,130,EUR
+Finland,Rovaniemi,Northern Lights trip - guaranteed lights,group_excursion,core,PP,90,EUR
+Finland,Rovaniemi,"Husky Experience, farm visit with short safari",group_excursion,core,PP,180,EUR
+Finland,Rovaniemi,Snowmobile Safari in the Nature,group_excursion,core,PP,130,EUR
+Norway,Tromsø,Northern Lights Cruise,group_excursion,core,PP,1200,NOK
+Norway,Tromsø,Tromsø Island Tour with Arctic Cathedral,group_excursion,core,PP,1500,NOK
+Norway,Tromsø,Night Reindeer Sledding Tour with Dinner (18:00-22:30),group_excursion,core,PP,2500,NOK
+Norway,Tromsø,"Snowmobile Safari, approx 7 hrs (08:30-15:30)",group_excursion,core,PP,2600,NOK
+Norway,Tromsø,"Whale watching boat tour, 7 hrs",group_excursion,core,PP,2100,NOK
+Norway,Tromsø,"Long Reindeer Sledding, Reindeer Feeding and Sami Culture",group_excursion,core,PP,2400,NOK
+Norway,Tromsø,"Arctic Fjord Tour with light lunch, 5 hrs",group_excursion,core,PP,1900,NOK
+Sweden,Kiruna,"Dog Sled Adventure, 2-3 hours (including transfers)",group_excursion,core,PP,1800,SEK
+Sweden,Kiruna,Northern Lights chase by minibus or snowmobile sleigh,group_excursion,core,PP,1900,SEK
+Sweden,Kiruna,"Tour to the iconic ICEHOTEL & Jukkasjärvi, 3 hours",group_excursion,core,PP,1800,SEK
+Sweden,Kiruna,"Snowmobile safari, 6 hours",group_excursion,core,PP,3300,SEK
+Sweden,Kiruna,Transfer Kiruna to Abisko,train,core,PI,2500,SEK
+Sweden,Abisko,"Morning hike in Abisko National Park, 2 hours",group_excursion,core,PP,900,SEK
+Sweden,Abisko,"Aurora Sky Station Night Visit, 4 hours",group_excursion,core,PP,1150,SEK
+United Kingdom,Bath,Roman Bath admission ticket,entrance,core,PP,29,GBP
+United Kingdom,Glastonbury,Glastonbury Abbey admission ticket,entrance,core,PP,15,GBP
+United Kingdom,Truro,"Polgoon Vineyards afternoon tasting tour, 90 mins (Thu/Fri/Sat only)",entrance,core,PP,22,GBP
+United Kingdom,Tintagel,Minack Theatre admission ticket (Closed Nov-Feb),entrance,core,PP,12,GBP
+United Kingdom,Tintagel,Tintagel Castle admission ticket,entrance,core,PP,23,GBP
+United Kingdom,Exeter,"Alder Vineyard tour, 90 mins",entrance,core,PP,22,GBP
+United Kingdom,Plymouth,"Plymouth Gin Distillery tour, 1 hr",entrance,core,PP,17,GBP
+United Kingdom,Exeter,Exeter Cathedral,entrance,core,PP,14,GBP
+United Kingdom,London,London Eye standard ticket,entrance,optional,PP,30,GBP
+United Kingdom,London,Madame Tussauds ticket,entrance,optional,PP,35,GBP
+United Kingdom,London,Tower of London ticket,entrance,optional,PP,34,GBP
+United Kingdom,London,"Stonehenge and Bath Tour, 10 hrs regular coach incl. all entrance tickets",group_excursion,optional,PP,116,GBP
+United Kingdom,Manchester,"Windermere & the Lake District, 11 hrs coach tour",group_excursion,optional,PP,70,GBP
+United Kingdom,Manchester,"Derbyshire & the Peak District, 9 hrs coach tour",group_excursion,optional,PP,65,GBP
+United Kingdom,Edinburgh,Edinburgh Hop on Hop off 1 day pass,sightseeing,optional,PP,20,GBP
+United Kingdom,Edinburgh,"Loch Lomond, Stirling Castle, 10 hrs regular coach",group_excursion,optional,PP,62,GBP
+France,Paris,Versailles Palace admission ticket,entrance,optional,PP,30,EUR
+France,Paris,Louvre Museum (Audioguide included),entrance,optional,PP,25,EUR
+France,Paris,"Paris Montmartre food tour, 4 hrs walking",group_excursion,optional,PP,149,EUR
+France,Paris,Moulin Rouge with drinks 9pm,sightseeing,optional,PP,185,EUR
+Switzerland,Grindelwald,Grindelwald First (with any two activities),group_excursion,optional,PP,116,EUR
+Switzerland,Lucerne,"Rhine Falls, 30 mins boat ride",group_excursion,optional,PP,22,EUR
+Switzerland,Lucerne,Lindt Chocolate Museum ticket,entrance,optional,PP,20,EUR
+Switzerland,Lucerne,Jungfraujoch with Swiss Pass,group_excursion,optional,PP,163,EUR
+Switzerland,Grindelwald,Grindelwald First (with any two activities) with Swiss Pass,group_excursion,optional,PP,75,EUR
+Switzerland,Montreux,Glacier 3000 with Swiss Pass,group_excursion,optional,PP,43,EUR
+Switzerland,Montreux,Broc Chocolate Museum ticket,entrance,optional,PP,18,EUR
+Switzerland,Innsbruck,Nordkette Tops of Innsbruck cable car return ticket,entrance,optional,PP,55,EUR
+Italy,Venice,"Gondola ride, shared 30 mins",sightseeing,optional,PP,39,EUR
+Italy,Florence,"Half day coach tour to Pisa, 5.5 hrs",group_excursion,optional,PP,65,EUR
+Italy,Florence,"Half day coach tour to Chianti vineyards & wine tastings, 5.5 hrs",group_excursion,optional,PP,75,EUR
+Italy,Rome,"Vatican Museums walking tour, small group 3 hrs",group_excursion,optional,PP,80,EUR
+Italy,Rome,Colosseum admission ticket,entrance,optional,PP,35,EUR
+Italy,Rome,Vatican Museum admission ticket,entrance,optional,PP,45,EUR
+Italy,Milan,Ferrari Museum ticket,entrance,optional,PP,35,EUR
+Italy,Florence,"Full day trip to Tuscany, Siena-San Gimignano with lunch & wine tasting, 11.5 hrs",group_excursion,optional,PP,95,EUR
+Italy,Rome,"Small group walking tour of Imperial Rome with Colosseum, 2.5 hrs",group_excursion,optional,PP,75,EUR
+Italy,Rome,"Small group walking tour of Vatican Museums, 2.5 hrs",group_excursion,optional,PP,80,EUR

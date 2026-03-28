@@ -1,0 +1,213 @@
+{
+  "id": "9.1",
+  "region": "scandinavia",
+  "title": "1 CPH - 1 Ferry - 1 Oslo - 1 Stockholm - 1 Ferry - 1 Helsinki",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Copenhagen",
+      "nights": 1,
+      "hotel_3star": "Moxy Copenhagen Sydhavnen",
+      "hotel_4star": "Scandic Kødbyen",
+      "rate_type": "PI",
+      "rate_3star": 195.0,
+      "rate_4star": 250.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "DFDS Ferry",
+      "nights": 1,
+      "hotel_3star": "Inside cabin with breakfast & dinner",
+      "hotel_4star": "Sea view cabin",
+      "rate_type": "PI",
+      "rate_3star": 300.0,
+      "rate_4star": 350.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Oslo",
+      "nights": 1,
+      "hotel_3star": "Anker Hotel",
+      "hotel_4star": "Scandic Vulkan",
+      "rate_type": "PI",
+      "rate_3star": 150.0,
+      "rate_4star": 230.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Stockholm",
+      "nights": 1,
+      "hotel_3star": "Quality Hotel Globe",
+      "hotel_4star": "Best Western Plus Time Hotel",
+      "rate_type": "PI",
+      "rate_3star": 175.0,
+      "rate_4star": 220.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Tallink Silja Ferry",
+      "nights": 1,
+      "hotel_3star": "inside cabin with bfast & dinner",
+      "hotel_4star": "promenade view",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 400.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Helsinki",
+      "nights": 1,
+      "hotel_3star": "Scandic Hakaniemi",
+      "hotel_4star": "Scandic Simonkenttä",
+      "rate_type": "PI",
+      "rate_3star": 140.0,
+      "rate_4star": 200.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 2",
+          "description": "24h BUS Hop On-Hop Off Classic Copenhagen. Then ferry to Oslo",
+          "rate_type": "PP",
+          "rate": 279.0,
+          "currency": "DKK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Oslo 24h BUS Hop On-Hop Off",
+          "rate_type": "PP",
+          "rate": 495.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Oslo - Stockholm train, II Class",
+          "rate_type": "PP",
+          "rate": 1050.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Archipelago Tour with Guide, 2.5 hrs. Then ferry to Helsinki",
+          "rate_type": "PP",
+          "rate": 380.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 6",
+          "description": "Winter -30.04 ** Helsinki Panorama Sightseeing, 1.5 hrs\nSummer -30.09 **Helsinki Hop On-Hop Off bus + Beautiful Canal Cruise 24 hr",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Private transfer to Helsinki airport",
+          "rate_type": "PI",
+          "rate": 70.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "24h BUS Hop On-Hop Off Classic Copenhagen. Then ferry to Oslo",
+        "Day 3": "Oslo 24h BUS Hop On-Hop Off",
+        "Day 4": "Oslo - Stockholm train, II Class",
+        "Day 5": "Archipelago Tour with Guide, 2.5 hrs. Then ferry to Helsinki",
+        "Day 6": "Winter -30.04 ** Helsinki Panorama Sightseeing, 1.5 hrs\nSummer -30.09 **Helsinki Hop On-Hop Off bus + Beautiful Canal Cruise 24 hr",
+        "Day 7": "Private transfer to Helsinki airport"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2221.466,
+              "twin": 1110.733,
+              "child": 462.065
+            },
+            "4star": {
+              "single": 2665.466,
+              "twin": 1332.733,
+              "child": 554.417
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2314.028,
+              "twin": 1157.014,
+              "child": 481.318
+            },
+            "4star": {
+              "single": 2776.528,
+              "twin": 1388.264,
+              "child": 577.518
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2036.344,
+              "twin": 1018.172,
+              "child": 423.56
+            },
+            "4star": {
+              "single": 2443.344,
+              "twin": 1221.672,
+              "child": 508.216
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2128.906,
+              "twin": 1064.453,
+              "child": 442.812
+            },
+            "4star": {
+              "single": 2554.406,
+              "twin": 1277.203,
+              "child": 531.316
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "The Nordic capitals by ferry and train: Copenhagen, Oslo, Stockholm and Helsinki in six nights."
+}

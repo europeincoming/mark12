@@ -1,0 +1,162 @@
+{
+  "id": "10.6",
+  "region": "scandinavia",
+  "title": "4 Kiruna - 3 Abisko (Stockholm Pre/post), winter",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Kiruna",
+      "nights": 4,
+      "hotel_3star": "Camp Ripan",
+      "hotel_4star": "Scandic Kiruna",
+      "rate_type": "PI",
+      "rate_3star": 840.0,
+      "rate_4star": 1040.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Abisko",
+      "nights": 3,
+      "hotel_3star": "Abisko Mountain Lodge",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 630.0,
+      "rate_4star": 630.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Transfer to hotel",
+          "rate_type": "PI",
+          "rate": 1200.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 2",
+          "description": "Dog Sled Adventure, 2-3 hours (including transfers)",
+          "rate_type": "PP",
+          "rate": 1800.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "",
+          "description": "Northern Lights chase by minibus or snowmobile sleigh (2 pax/snowmobile)",
+          "rate_type": "PP",
+          "rate": 1900.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Tour to the iconic ICEHOTEL & Jukkasjärvi, 3 hours",
+          "rate_type": "PP",
+          "rate": 1800.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Snowmobile safari, 6 hours",
+          "rate_type": "PP",
+          "rate": 3300.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Transfer from Kiruna to Abisko",
+          "rate_type": "PI",
+          "rate": 2500.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 6",
+          "description": "Morning hike in Abisko National Park, 2 hours",
+          "rate_type": "PP",
+          "rate": 900.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "",
+          "description": "Aurora Sky Station Night Visit, 4 hours",
+          "rate_type": "PP",
+          "rate": 1150.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 8",
+          "description": "Transfer to Kiruna Airport",
+          "rate_type": "PI",
+          "rate": 2500.0,
+          "currency": "SEK"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Transfer to hotel",
+        "Day 2": "Dog Sled Adventure, 2-3 hours (including transfers)",
+        "Day 3": "Tour to the iconic ICEHOTEL & Jukkasjärvi, 3 hours",
+        "Day 4": "Snowmobile safari, 6 hours",
+        "Day 5": "Transfer from Kiruna to Abisko",
+        "Day 6": "Morning hike in Abisko National Park, 2 hours",
+        "Day 8": "Transfer to Kiruna Airport"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 4577.446,
+              "twin": 2288.723,
+              "child": 952.109
+            },
+            "4star": {
+              "single": 4817.446,
+              "twin": 2408.723,
+              "child": 1002.029
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 4195.992,
+              "twin": 2097.996,
+              "child": 872.766
+            },
+            "4star": {
+              "single": 4415.992,
+              "twin": 2207.996,
+              "child": 918.526
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Kiruna and Abisko — four nights of Arctic adventures followed by three nights at the Aurora Sky Station."
+}

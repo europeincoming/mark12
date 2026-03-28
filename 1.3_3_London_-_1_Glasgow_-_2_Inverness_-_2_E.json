@@ -1,0 +1,331 @@
+{
+  "id": "2.1",
+  "region": "western-central-europe",
+  "title": "3 Paris - 3 Lucerne - 1 Zurich",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Paris",
+      "nights": 3,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": "Marceau Bastille",
+      "rate_type": "PI",
+      "rate_3star": 570.0,
+      "rate_4star": 750.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Lucerne",
+      "nights": 3,
+      "hotel_3star": "Boutique Hotel Karl",
+      "hotel_4star": "Altstadt Hotel Krone Apartments Luzern",
+      "rate_type": "PI",
+      "rate_3star": 540.0,
+      "rate_4star": 750.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Zurich",
+      "nights": 1,
+      "hotel_3star": "Montana Hotel",
+      "hotel_4star": "Züri by Fassbind",
+      "rate_type": "PI",
+      "rate_3star": 210.0,
+      "rate_4star": 260.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris City Tour, Seine Cruise and Eiffel Tower 2nd Floor, 4 hrs coach tour",
+          "rate_type": "PP",
+          "rate": 89.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Your private transfer meets you at Charles de Gaulle for the journey into central Paris. The city reveals itself best on foot first — find a neighbourhood brasserie, walk the embankments, and let the first evening be unscheduled.",
+        "Day 2": "A four-hour coach tour covers the essential Paris: Notre-Dame's restored façade, the Champs-Élysées, Les Invalides and a one-hour cruise along the Seine past the Pont Neuf. The Eiffel Tower visit takes you to the second floor — 115 metres up, enough for the full panorama."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1965.6,
+              "twin": 982.8,
+              "child": 408.845
+            },
+            "4star": {
+              "single": 2493.6,
+              "twin": 1246.8,
+              "child": 518.669
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2047.5,
+              "twin": 1023.75,
+              "child": 425.88
+            },
+            "4star": {
+              "single": 2597.5,
+              "twin": 1298.75,
+              "child": 540.28
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1801.8,
+              "twin": 900.9,
+              "child": 374.774
+            },
+            "4star": {
+              "single": 2285.8,
+              "twin": 1142.9,
+              "child": 475.446
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1883.7,
+              "twin": 941.85,
+              "child": 391.81
+            },
+            "4star": {
+              "single": 2389.7,
+              "twin": 1194.85,
+              "child": 497.058
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach on disposal basis from Day 3 till Day 8",
+        "rate_type": "PI",
+        "rate": 6850.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach on disposal basis from Day 3 till Day 8",
+          "rate_type": "PI",
+          "rate": 6850.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PP",
+          "rate": 70.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris panoramic tour with English speaking guide, 3 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hour",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Your private transfer meets you at Charles de Gaulle for the journey into central Paris. The city reveals itself best on foot first — find a neighbourhood brasserie, walk the embankments, and let the first evening be unscheduled.",
+        "Day 2": "A four-hour coach tour covers the essential Paris: Notre-Dame's restored façade, the Champs-Élysées, Les Invalides and a one-hour cruise along the Seine past the Pont Neuf. The Eiffel Tower visit takes you to the second floor — 115 metres up, enough for the full panorama.",
+        "Day 5": "Mount Titlis at 3,238 metres via the world's first revolving cable car. The Rotair completes a full 360° on the ascent. At the top: a glacier walk, an ice tunnel and views on clear days from the Jungfrau to the Black Forest. The afternoon lake cruise is included free with your pass."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3086.1,
+                "4star": 3350.1
+              },
+              {
+                "pax": 10,
+                "3star": 2667.6,
+                "4star": 2931.6
+              },
+              {
+                "pax": 12,
+                "3star": 2388.6,
+                "4star": 2652.6
+              },
+              {
+                "pax": 14,
+                "3star": 2189.314,
+                "4star": 2453.314
+              },
+              {
+                "pax": 16,
+                "3star": 2039.85,
+                "4star": 2303.85
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3214.688,
+                "4star": 3489.688
+              },
+              {
+                "pax": 10,
+                "3star": 2778.75,
+                "4star": 3053.75
+              },
+              {
+                "pax": 12,
+                "3star": 2488.125,
+                "4star": 2763.125
+              },
+              {
+                "pax": 14,
+                "3star": 2280.536,
+                "4star": 2555.536
+              },
+              {
+                "pax": 16,
+                "3star": 2124.844,
+                "4star": 2399.844
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2828.925,
+                "4star": 3070.925
+              },
+              {
+                "pax": 10,
+                "3star": 2445.3,
+                "4star": 2687.3
+              },
+              {
+                "pax": 12,
+                "3star": 2189.55,
+                "4star": 2431.55
+              },
+              {
+                "pax": 14,
+                "3star": 2006.871,
+                "4star": 2248.871
+              },
+              {
+                "pax": 16,
+                "3star": 1869.863,
+                "4star": 2111.863
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2957.512,
+                "4star": 3210.512
+              },
+              {
+                "pax": 10,
+                "3star": 2556.45,
+                "4star": 2809.45
+              },
+              {
+                "pax": 12,
+                "3star": 2289.075,
+                "4star": 2542.075
+              },
+              {
+                "pax": 14,
+                "3star": 2098.093,
+                "4star": 2351.093
+              },
+              {
+                "pax": 16,
+                "3star": 1954.856,
+                "4star": 2207.856
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Paris at its most iconic, then Switzerland at its most Alpine — the Eiffel Tower, the Rotair cable car and the Rhine Falls."
+}

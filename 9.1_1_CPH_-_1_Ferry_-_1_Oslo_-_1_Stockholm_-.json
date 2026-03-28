@@ -1,0 +1,385 @@
+{
+  "id": "7.1",
+  "region": "other",
+  "title": "2 Prague - 2 Vienna - 2 Budapest",
+  "nights": 6,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Prague",
+      "nights": 2,
+      "hotel_3star": "Hotel Merkur",
+      "hotel_4star": "Novotel Praha Wencelas Square",
+      "rate_type": "PI",
+      "rate_3star": 250.0,
+      "rate_4star": 295.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Vienna",
+      "nights": 2,
+      "hotel_3star": "ibis Styles Wien City",
+      "hotel_4star": "arte Hotel Wien",
+      "rate_type": "PI",
+      "rate_3star": 225.0,
+      "rate_4star": 285.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Budapest",
+      "nights": 2,
+      "hotel_3star": "Ibis Styles Budapest City",
+      "hotel_4star": "NH Budapest City",
+      "rate_type": "PI",
+      "rate_3star": 120.0,
+      "rate_4star": 140.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Prague airport to Prague hotel, private transfer",
+          "rate_type": "PI",
+          "rate": 98.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Grand City Tour of Prague with Prague Castle and 1 hour River Vltava cruise, 4 hrs",
+          "rate_type": "PP",
+          "rate": 54.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Prague - Vienna train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Vienna city tour with Schönbrunn Palace, 3.5 hrs",
+          "rate_type": "PP",
+          "rate": 69.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Vienna - Budapest train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Budapest Grand City Tour, 3 hrs",
+          "rate_type": "PP",
+          "rate": 35.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Budapest hotel to Budapest airport, private transfer",
+          "rate_type": "PI",
+          "rate": 65.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Prague airport to Prague hotel, private transfer",
+        "Day 2": "Grand City Tour of Prague with Prague Castle and 1 hour River Vltava cruise, 4 hrs",
+        "Day 3": "Prague - Vienna train ticket, II Class",
+        "Day 4": "Vienna city tour with Schönbrunn Palace, 3.5 hrs",
+        "Day 5": "Vienna - Budapest train ticket, II Class",
+        "Day 6": "Budapest Grand City Tour, 3 hrs",
+        "Day 7": "Budapest hotel to Budapest airport, private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1528.8,
+              "twin": 764.4,
+              "child": 317.99
+            },
+            "4star": {
+              "single": 1678.8,
+              "twin": 839.4,
+              "child": 349.19
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1592.5,
+              "twin": 796.25,
+              "child": 331.24
+            },
+            "4star": {
+              "single": 1748.75,
+              "twin": 874.375,
+              "child": 363.74
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1401.4,
+              "twin": 700.7,
+              "child": 291.491
+            },
+            "4star": {
+              "single": 1538.9,
+              "twin": 769.45,
+              "child": 320.091
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1465.1,
+              "twin": 732.55,
+              "child": 304.741
+            },
+            "4star": {
+              "single": 1608.85,
+              "twin": 804.425,
+              "child": 334.641
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach for 4 hrs on Day 2 & coach on disposal from Day 3 till Day 6",
+        "rate_type": "PI",
+        "rate": 3550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach for 4 hrs on Day 2 & coach on disposal from Day 3 till Day 6",
+          "rate_type": "PI",
+          "rate": 3550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Prague guided city tour, 4 hrs",
+          "rate_type": "PI",
+          "rate": 200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Prague Castle basic circuit admission ticket",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Vienna guided city tour, 4 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Schönbrunn Palace admission ticket",
+          "rate_type": "PP",
+          "rate": 31.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Budapest guided city tour, 3 hrs",
+          "rate_type": "PI",
+          "rate": 200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Danube river cruise, 1 hr",
+          "rate_type": "PP",
+          "rate": 15.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Prague guided city tour, 4 hrs",
+        "Day 4": "Vienna guided city tour, 4 hrs",
+        "Day 6": "Budapest guided city tour, 3 hrs"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 1592.7,
+                "4star": 1667.7
+              },
+              {
+                "pax": 10,
+                "3star": 1360.2,
+                "4star": 1435.2
+              },
+              {
+                "pax": 12,
+                "3star": 1205.2,
+                "4star": 1280.2
+              },
+              {
+                "pax": 14,
+                "3star": 1094.486,
+                "4star": 1169.486
+              },
+              {
+                "pax": 16,
+                "3star": 1011.45,
+                "4star": 1086.45
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 1659.062,
+                "4star": 1737.188
+              },
+              {
+                "pax": 10,
+                "3star": 1416.875,
+                "4star": 1495.0
+              },
+              {
+                "pax": 12,
+                "3star": 1255.417,
+                "4star": 1333.542
+              },
+              {
+                "pax": 14,
+                "3star": 1140.089,
+                "4star": 1218.214
+              },
+              {
+                "pax": 16,
+                "3star": 1053.594,
+                "4star": 1131.719
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 1459.975,
+                "4star": 1528.725
+              },
+              {
+                "pax": 10,
+                "3star": 1246.85,
+                "4star": 1315.6
+              },
+              {
+                "pax": 12,
+                "3star": 1104.767,
+                "4star": 1173.517
+              },
+              {
+                "pax": 14,
+                "3star": 1003.279,
+                "4star": 1072.029
+              },
+              {
+                "pax": 16,
+                "3star": 927.163,
+                "4star": 995.913
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 1526.337,
+                "4star": 1598.212
+              },
+              {
+                "pax": 10,
+                "3star": 1303.525,
+                "4star": 1375.4
+              },
+              {
+                "pax": 12,
+                "3star": 1154.983,
+                "4star": 1226.858
+              },
+              {
+                "pax": 14,
+                "3star": 1048.882,
+                "4star": 1120.757
+              },
+              {
+                "pax": 16,
+                "3star": 969.306,
+                "4star": 1041.181
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Three Central European capitals — Prague's Gothic old town, Vienna's imperial grandeur and Budapest's thermal baths."
+}

@@ -1,0 +1,429 @@
+{
+  "id": "5.1",
+  "region": "france",
+  "title": "2 Paris - 2 Avignon - 2 Aix - 2 Nice",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Paris",
+      "nights": 2,
+      "hotel_3star": "Hôtel Berne Opéra",
+      "hotel_4star": "Marceau Bastille",
+      "rate_type": "PI",
+      "rate_3star": 296.0,
+      "rate_4star": 355.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Avignon",
+      "nights": 2,
+      "hotel_3star": "Kyriad avignon Palais des papes",
+      "hotel_4star": "Mercure Avignon Gare TGV",
+      "rate_type": "PI",
+      "rate_3star": 360.0,
+      "rate_4star": 390.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Aix en Provence",
+      "nights": 2,
+      "hotel_3star": "ibis Aix-en-Provence",
+      "hotel_4star": "Boutique Hôtel Cézanne",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 420.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Nice",
+      "nights": 2,
+      "hotel_3star": "ibis Nice Centre Gare",
+      "hotel_4star": "Mercure Nice Centre Notre-Dame",
+      "rate_type": "PI",
+      "rate_3star": 380.0,
+      "rate_4star": 520.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 140.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Paris airport to Paris hotel private transfer"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1747.2,
+              "twin": 873.6,
+              "child": 363.418
+            },
+            "4star": {
+              "single": 2190.0,
+              "twin": 1095.0,
+              "child": 455.52
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1820.0,
+              "twin": 910.0,
+              "child": 378.56
+            },
+            "4star": {
+              "single": 2281.25,
+              "twin": 1140.625,
+              "child": 474.5
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1601.6,
+              "twin": 800.8,
+              "child": 333.133
+            },
+            "4star": {
+              "single": 2007.5,
+              "twin": 1003.75,
+              "child": 417.56
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1674.4,
+              "twin": 837.2,
+              "child": 348.275
+            },
+            "4star": {
+              "single": 2098.75,
+              "twin": 1049.375,
+              "child": 436.54
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 9",
+        "rate_type": "PI",
+        "rate": 8550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 9",
+          "rate_type": "PI",
+          "rate": 8550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer, coach for 6 hrs",
+          "rate_type": "PI",
+          "rate": 0.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Paris city tour with local guide for 3 hrs, coach for 10 hrs",
+          "rate_type": "PI",
+          "rate": 250.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Seine river cruise, 1 hr",
+          "rate_type": "PP",
+          "rate": 10.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Paris - Avignon train ticket, II Class + station transfers",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Paris airport to Paris hotel private transfer, coach for 6 hrs",
+        "Day 2": "Paris city tour with local guide for 3 hrs, coach for 10 hrs",
+        "Day 3": "Paris - Avignon train ticket, II Class + station transfers"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3476.1,
+                "4star": 3697.5
+              },
+              {
+                "pax": 10,
+                "3star": 2955.6,
+                "4star": 3177.0
+              },
+              {
+                "pax": 12,
+                "3star": 2608.6,
+                "4star": 2830.0
+              },
+              {
+                "pax": 14,
+                "3star": 2360.743,
+                "4star": 2582.143
+              },
+              {
+                "pax": 16,
+                "3star": 2174.85,
+                "4star": 2396.25
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3620.938,
+                "4star": 3851.562
+              },
+              {
+                "pax": 10,
+                "3star": 3078.75,
+                "4star": 3309.375
+              },
+              {
+                "pax": 12,
+                "3star": 2717.292,
+                "4star": 2947.917
+              },
+              {
+                "pax": 14,
+                "3star": 2459.107,
+                "4star": 2689.732
+              },
+              {
+                "pax": 16,
+                "3star": 2265.469,
+                "4star": 2496.094
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3186.425,
+                "4star": 3389.375
+              },
+              {
+                "pax": 10,
+                "3star": 2709.3,
+                "4star": 2912.25
+              },
+              {
+                "pax": 12,
+                "3star": 2391.217,
+                "4star": 2594.167
+              },
+              {
+                "pax": 14,
+                "3star": 2164.014,
+                "4star": 2366.964
+              },
+              {
+                "pax": 16,
+                "3star": 1993.613,
+                "4star": 2196.562
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3331.262,
+                "4star": 3543.437
+              },
+              {
+                "pax": 10,
+                "3star": 2832.45,
+                "4star": 3044.625
+              },
+              {
+                "pax": 12,
+                "3star": 2499.908,
+                "4star": 2712.083
+              },
+              {
+                "pax": 14,
+                "3star": 2262.379,
+                "4star": 2474.554
+              },
+              {
+                "pax": 16,
+                "3star": 2084.231,
+                "4star": 2296.406
+              }
+            ]
+          }
+        }
+      }
+    },
+    "self_drive": {
+      "car_hire": {
+        "description": "Paris airport to Paris hotel private transfer",
+        "rate": 140.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Paris airport to Paris hotel private transfer",
+          "rate_type": "PI",
+          "rate": 140.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Paris - Avignon train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 60.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Pickup rental car in Avignon, SUV class 5 seat car, Automatic",
+          "rate_type": "PI",
+          "rate": 750.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Paris airport to Paris hotel private transfer",
+        "Day 3": "Paris - Avignon train ticket, II Class"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2791.2,
+              "twin": 1395.6,
+              "child": 580.57
+            },
+            "4star": {
+              "single": 3234.0,
+              "twin": 1617.0,
+              "child": 672.672
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2907.5,
+              "twin": 1453.75,
+              "child": 604.76
+            },
+            "4star": {
+              "single": 3368.75,
+              "twin": 1684.375,
+              "child": 700.7
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2558.6,
+              "twin": 1279.3,
+              "child": 532.189
+            },
+            "4star": {
+              "single": 2964.5,
+              "twin": 1482.25,
+              "child": 616.616
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2674.9,
+              "twin": 1337.45,
+              "child": 556.379
+            },
+            "4star": {
+              "single": 3099.25,
+              "twin": 1549.625,
+              "child": 644.644
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Provence and the Côte d'Azur — Paris, the papal city of Avignon, Aix-en-Provence and the Riviera."
+}

@@ -1,0 +1,129 @@
+{
+  "id": "10.5",
+  "region": "scandinavia",
+  "title": "4 Kiruna (Stockholm pre/post), winter",
+  "nights": 4,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Kiruna",
+      "nights": 4,
+      "hotel_3star": "Camp Ripan",
+      "hotel_4star": "Scandic Kiruna",
+      "rate_type": "PI",
+      "rate_3star": 840.0,
+      "rate_4star": 1040.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Transfer to hotel",
+          "rate_type": "PI",
+          "rate": 900.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 2",
+          "description": "Dog Sled Adventure, 2-3 hours (including transfers)",
+          "rate_type": "PP",
+          "rate": 1800.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "",
+          "description": "Northern Lights chase by minibus or snowmobile sleigh (2 pax/snowmobile)",
+          "rate_type": "PP",
+          "rate": 1900.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Tour to the iconic ICEHOTEL & Jukkasjärvi, 3 hours",
+          "rate_type": "PP",
+          "rate": 1800.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Snowmobile safari, 6 hours",
+          "rate_type": "PP",
+          "rate": 3300.0,
+          "currency": "SEK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Transfer to Kiruna Airport",
+          "rate_type": "PI",
+          "rate": 900.0,
+          "currency": "SEK"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Transfer to hotel",
+        "Day 2": "Dog Sled Adventure, 2-3 hours (including transfers)",
+        "Day 3": "Tour to the iconic ICEHOTEL & Jukkasjärvi, 3 hours",
+        "Day 4": "Snowmobile safari, 6 hours",
+        "Day 5": "Transfer to Kiruna Airport"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2964.302,
+              "twin": 1482.151,
+              "child": 616.575
+            },
+            "4star": {
+              "single": 3204.302,
+              "twin": 1602.151,
+              "child": 666.495
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2717.278,
+              "twin": 1358.639,
+              "child": 565.194
+            },
+            "4star": {
+              "single": 2937.278,
+              "twin": 1468.639,
+              "child": 610.954
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Four nights in Swedish Lapland — dog sledding, snowmobile safaris and Northern Lights chasing from Kiruna."
+}

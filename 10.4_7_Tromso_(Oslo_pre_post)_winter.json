@@ -1,0 +1,325 @@
+{
+  "id": "4.2",
+  "region": "other",
+  "title": "2 Lucerne - 2 Interlaken - 2 Montreux - 1 Zurich",
+  "nights": null,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Lucerne",
+      "nights": 2,
+      "hotel_3star": "Boutique Hotel Karl",
+      "hotel_4star": "Altstadt Hotel Krone Apartments Luzern",
+      "rate_type": "PI",
+      "rate_3star": 320.0,
+      "rate_4star": 405.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Interlaken",
+      "nights": 2,
+      "hotel_3star": "Hotel Lötschberg",
+      "hotel_4star": "Stella Hotel Interlaken",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 300.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Montreaux. Hotel Helvetie",
+      "nights": 2,
+      "hotel_3star": null,
+      "hotel_4star": "Eden Palace Au Lac",
+      "rate_type": "PI",
+      "rate_3star": 360.0,
+      "rate_4star": 440.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Zurich",
+      "nights": 1,
+      "hotel_3star": "Montana Hotel",
+      "hotel_4star": "Züri by Fassbind",
+      "rate_type": "PI",
+      "rate_3star": 182.0,
+      "rate_4star": 230.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "",
+          "description": "Swiss travel pass, consecutive 8 days , II Class",
+          "rate_type": "PP",
+          "rate": 340.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Titlis with pass, Lake Lucerne cruise free with pass",
+          "rate_type": "PP",
+          "rate": 58.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Titlis with pass, Lake Lucerne cruise free with pass"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2325.6,
+              "twin": 1162.8,
+              "child": 483.725
+            },
+            "4star": {
+              "single": 2605.2,
+              "twin": 1302.6,
+              "child": 541.882
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2422.5,
+              "twin": 1211.25,
+              "child": 503.88
+            },
+            "4star": {
+              "single": 2713.75,
+              "twin": 1356.875,
+              "child": 564.46
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2131.8,
+              "twin": 1065.9,
+              "child": 443.414
+            },
+            "4star": {
+              "single": 2388.1,
+              "twin": 1194.05,
+              "child": 496.725
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2228.7,
+              "twin": 1114.35,
+              "child": 463.57
+            },
+            "4star": {
+              "single": 2496.65,
+              "twin": 1248.325,
+              "child": 519.303
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 7",
+        "rate_type": "PI",
+        "rate": 7200.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 7",
+          "rate_type": "PI",
+          "rate": 7200.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Titlis and Engelberg",
+          "rate_type": "PP",
+          "rate": 83.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Broc chocolate factory visit tickets",
+          "rate_type": "PP",
+          "rate": 20.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 2": "Titlis and Engelberg",
+        "Day 6": "Broc chocolate factory visit tickets"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2968.8,
+                "4star": 3108.6
+              },
+              {
+                "pax": 10,
+                "3star": 2536.8,
+                "4star": 2676.6
+              },
+              {
+                "pax": 12,
+                "3star": 2248.8,
+                "4star": 2388.6
+              },
+              {
+                "pax": 14,
+                "3star": 2043.086,
+                "4star": 2182.886
+              },
+              {
+                "pax": 16,
+                "3star": 1888.8,
+                "4star": 2028.6
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 3092.5,
+                "4star": 3238.125
+              },
+              {
+                "pax": 10,
+                "3star": 2642.5,
+                "4star": 2788.125
+              },
+              {
+                "pax": 12,
+                "3star": 2342.5,
+                "4star": 2488.125
+              },
+              {
+                "pax": 14,
+                "3star": 2128.214,
+                "4star": 2273.839
+              },
+              {
+                "pax": 16,
+                "3star": 1967.5,
+                "4star": 2113.125
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2721.4,
+                "4star": 2849.55
+              },
+              {
+                "pax": 10,
+                "3star": 2325.4,
+                "4star": 2453.55
+              },
+              {
+                "pax": 12,
+                "3star": 2061.4,
+                "4star": 2189.55
+              },
+              {
+                "pax": 14,
+                "3star": 1872.829,
+                "4star": 2000.979
+              },
+              {
+                "pax": 16,
+                "3star": 1731.4,
+                "4star": 1859.55
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 2845.1,
+                "4star": 2979.075
+              },
+              {
+                "pax": 10,
+                "3star": 2431.1,
+                "4star": 2565.075
+              },
+              {
+                "pax": 12,
+                "3star": 2155.1,
+                "4star": 2289.075
+              },
+              {
+                "pax": 14,
+                "3star": 1957.957,
+                "4star": 2091.932
+              },
+              {
+                "pax": 16,
+                "3star": 1810.1,
+                "4star": 1944.075
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Seven nights through Switzerland's finest — Lucerne, Interlaken, the Bernese Oberland, Montreux and Zurich."
+}

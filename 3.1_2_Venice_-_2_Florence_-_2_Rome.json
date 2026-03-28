@@ -1,0 +1,152 @@
+{
+  "id": "10.4",
+  "region": "scandinavia",
+  "title": "7 Tromso (Oslo pre/post), winter",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Tromso",
+      "nights": 7,
+      "hotel_3star": "Scandic Grand Tromsø",
+      "hotel_4star": "Clarion Hotel The Edge",
+      "rate_type": "PI",
+      "rate_3star": 1960.0,
+      "rate_4star": 2730.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Private Transfer from Tromso Airport to Hotel",
+          "rate_type": "PI",
+          "rate": 1700.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "",
+          "description": "Northern Lights Cruise",
+          "rate_type": "PP",
+          "rate": 1200.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 2",
+          "description": "Tromsø Island Tour with Arctic Cathedral",
+          "rate_type": "PP",
+          "rate": 1500.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "",
+          "description": "Night Reindeer Sledding Tour with Dinner (18h00-22h30)",
+          "rate_type": "PP",
+          "rate": 2500.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 3",
+          "description": "Snowmobile Safari, Approx 7h (08h30-15h30)",
+          "rate_type": "PP",
+          "rate": 2600.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 4",
+          "description": "Whale watching boat tour, 7 hrs",
+          "rate_type": "PP",
+          "rate": 2100.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 5",
+          "description": "Long Reindeer Sledding, Reindeer Feeding and Sami Culture",
+          "rate_type": "PP",
+          "rate": 2400.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 6",
+          "description": "Arctic Fjord Tour with light lunch, 5 hrs",
+          "rate_type": "PP",
+          "rate": 1900.0,
+          "currency": "NOK"
+        },
+        {
+          "day": "Day 8",
+          "description": "Private Transfer from Hotel to Tromso Airport",
+          "rate_type": "PI",
+          "rate": 1700.0,
+          "currency": "NOK"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Private Transfer from Tromso Airport to Hotel",
+        "Day 2": "Tromsø Island Tour with Arctic Cathedral",
+        "Day 3": "Snowmobile Safari, Approx 7h (08h30-15h30)",
+        "Day 4": "Whale watching boat tour, 7 hrs",
+        "Day 5": "Long Reindeer Sledding, Reindeer Feeding and Sami Culture",
+        "Day 6": "Arctic Fjord Tour with light lunch, 5 hrs",
+        "Day 8": "Private Transfer from Hotel to Tromso Airport"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 5670.26,
+              "twin": 2835.13,
+              "child": 1179.414
+            },
+            "4star": {
+              "single": 6594.26,
+              "twin": 3297.13,
+              "child": 1371.606
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 5197.74,
+              "twin": 2598.87,
+              "child": 1081.13
+            },
+            "4star": {
+              "single": 6044.74,
+              "twin": 3022.37,
+              "child": 1257.306
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Seven nights in Arctic Tromsø — the full winter experience: reindeer sledding, snowmobiles, Northern Lights and whale watching."
+}

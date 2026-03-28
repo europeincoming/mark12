@@ -1,0 +1,381 @@
+{
+  "id": "6.1",
+  "region": "spain-portugal",
+  "title": "2 Madrid - 2 Granada - 2 Seville - 2 Barcelona",
+  "nights": 8,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "markup": {
+    "Premium": {
+      "winter": 1.2,
+      "summer": 1.25
+    },
+    "Standard": {
+      "winter": 1.1,
+      "summer": 1.15
+    }
+  },
+  "hotels": [
+    {
+      "city": "Madrid",
+      "nights": 2,
+      "hotel_3star": "Hotel Regente",
+      "hotel_4star": "Novotel Madrid City Las Ventas",
+      "rate_type": "PI",
+      "rate_3star": 490.0,
+      "rate_4star": 470.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Granada",
+      "nights": 2,
+      "hotel_3star": "Hotel Comfort Dauro 2",
+      "hotel_4star": "Occidental Granada",
+      "rate_type": "PI",
+      "rate_3star": 280.0,
+      "rate_4star": 370.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Seville",
+      "nights": 2,
+      "hotel_3star": "Hotel Derby Sevilla",
+      "hotel_4star": "Novotel Sevilla",
+      "rate_type": "PI",
+      "rate_3star": 350.0,
+      "rate_4star": 470.0,
+      "currency": "EUR"
+    },
+    {
+      "city": "Barcelona",
+      "nights": 2,
+      "hotel_3star": "Hotel HCC Regente",
+      "hotel_4star": "Mercure Barcelona Condor",
+      "rate_type": "PI",
+      "rate_3star": 370.0,
+      "rate_4star": 420.0,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "regular_fit": {
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Madrid airport to Madrid hotel, private transfer",
+          "rate_type": "PI",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 2",
+          "description": "Madrid city tour with Royal Palace, 4.5 hrs",
+          "rate_type": "PP",
+          "rate": 65.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 3",
+          "description": "Madrid - Granada train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Guided Tour to the Alhambra & Generalife Gardens, 3 hrs walking",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 5",
+          "description": "Granada - Seville train, II Class",
+          "rate_type": "PP",
+          "rate": 75.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 6",
+          "description": "Historic Seville walking tour with Royal Alcazar, 2 hrs",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Seville - Barcelona train ticket, II Class",
+          "rate_type": "PP",
+          "rate": 95.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Madrid airport to Madrid hotel, private transfer",
+        "Day 2": "Madrid city tour with Royal Palace, 4.5 hrs",
+        "Day 3": "Madrid - Granada train ticket, II Class",
+        "Day 4": "Guided Tour to the Alhambra & Generalife Gardens, 3 hrs walking",
+        "Day 5": "Granada - Seville train, II Class",
+        "Day 6": "Historic Seville walking tour with Royal Alcazar, 2 hrs",
+        "Day 7": "Seville - Barcelona train ticket, II Class"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2952.0,
+              "twin": 1476.0,
+              "child": 614.016
+            },
+            "4star": {
+              "single": 3240.0,
+              "twin": 1620.0,
+              "child": 673.92
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 3075.0,
+              "twin": 1537.5,
+              "child": 639.6
+            },
+            "4star": {
+              "single": 3375.0,
+              "twin": 1687.5,
+              "child": 702.0
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 2706.0,
+              "twin": 1353.0,
+              "child": 562.848
+            },
+            "4star": {
+              "single": 2970.0,
+              "twin": 1485.0,
+              "child": 617.76
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 2829.0,
+              "twin": 1414.5,
+              "child": 588.432
+            },
+            "4star": {
+              "single": 3105.0,
+              "twin": 1552.5,
+              "child": 645.84
+            }
+          }
+        }
+      }
+    },
+    "private": {
+      "vehicle_cost": {
+        "description": "Private coach from Day 1 till Day 9",
+        "rate_type": "PI",
+        "rate": 11550.0,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "",
+          "description": "Private coach from Day 1 till Day 9",
+          "rate_type": "PI",
+          "rate": 11550.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 4",
+          "description": "Tickets to Alhambra and Generalife",
+          "rate_type": "PP",
+          "rate": 50.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 7",
+          "description": "Seville - Barcelona train + Station transfers",
+          "rate_type": "PP",
+          "rate": 120.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "Day 8",
+          "description": "Barcelona city tour + Montserrat visit with guide for 8 hrs",
+          "rate_type": "PI",
+          "rate": 500.0,
+          "currency": "EUR"
+        },
+        {
+          "day": "",
+          "description": "Montserrat tickets",
+          "rate_type": "PP",
+          "rate": 40.0,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 4": "Tickets to Alhambra and Generalife",
+        "Day 7": "Seville - Barcelona train + Station transfers",
+        "Day 8": "Barcelona city tour + Montserrat visit with guide for 8 hrs"
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4686.0,
+                "4star": 4830.0
+              },
+              {
+                "pax": 10,
+                "3star": 3978.0,
+                "4star": 4122.0
+              },
+              {
+                "pax": 12,
+                "3star": 3506.0,
+                "4star": 3650.0
+              },
+              {
+                "pax": 14,
+                "3star": 3168.857,
+                "4star": 3312.857
+              },
+              {
+                "pax": 16,
+                "3star": 2916.0,
+                "4star": 3060.0
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4881.25,
+                "4star": 5031.25
+              },
+              {
+                "pax": 10,
+                "3star": 4143.75,
+                "4star": 4293.75
+              },
+              {
+                "pax": 12,
+                "3star": 3652.083,
+                "4star": 3802.083
+              },
+              {
+                "pax": 14,
+                "3star": 3300.893,
+                "4star": 3450.893
+              },
+              {
+                "pax": 16,
+                "3star": 3037.5,
+                "4star": 3187.5
+              }
+            ]
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4295.5,
+                "4star": 4427.5
+              },
+              {
+                "pax": 10,
+                "3star": 3646.5,
+                "4star": 3778.5
+              },
+              {
+                "pax": 12,
+                "3star": 3213.833,
+                "4star": 3345.833
+              },
+              {
+                "pax": 14,
+                "3star": 2904.786,
+                "4star": 3036.786
+              },
+              {
+                "pax": 16,
+                "3star": 2673.0,
+                "4star": 2805.0
+              }
+            ]
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "rows": [
+              {
+                "pax": 8,
+                "3star": 4490.75,
+                "4star": 4628.75
+              },
+              {
+                "pax": 10,
+                "3star": 3812.25,
+                "4star": 3950.25
+              },
+              {
+                "pax": 12,
+                "3star": 3359.917,
+                "4star": 3497.917
+              },
+              {
+                "pax": 14,
+                "3star": 3036.821,
+                "4star": 3174.821
+              },
+              {
+                "pax": 16,
+                "3star": 2794.5,
+                "4star": 2932.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Spain's four great cities: Madrid's royal palaces, Granada's Alhambra, Seville's flamenco and Barcelona's Gaudí."
+}
