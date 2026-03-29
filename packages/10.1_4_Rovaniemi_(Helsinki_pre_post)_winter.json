@@ -80,26 +80,26 @@
             "3star": {
               "single": 1056.0,
               "twin": 528.0,
-              "child": 219.648
+              "child": 216.0
             },
             "4star": {
               "single": 1056.0,
               "twin": 528.0,
-              "child": 219.648
+              "child": 216.0
             }
           },
           "summer": {
             "date_start": "2026-04-01",
             "date_end": "2026-11-30",
             "3star": {
-              "single": 1100.0,
-              "twin": 550.0,
-              "child": 228.8
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 216.0
             },
             "4star": {
-              "single": 1100.0,
-              "twin": 550.0,
-              "child": 228.8
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 216.0
             }
           }
         },
@@ -108,28 +108,28 @@
             "date_start": "2025-11-01",
             "date_end": "2026-03-31",
             "3star": {
-              "single": 968.0,
-              "twin": 484.0,
-              "child": 201.344
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 216.0
             },
             "4star": {
-              "single": 968.0,
-              "twin": 484.0,
-              "child": 201.344
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 216.0
             }
           },
           "summer": {
             "date_start": "2026-04-01",
             "date_end": "2026-11-30",
             "3star": {
-              "single": 1012.0,
-              "twin": 506.0,
-              "child": 210.496
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 216.0
             },
             "4star": {
-              "single": 1012.0,
-              "twin": 506.0,
-              "child": 210.496
+              "single": 1056.0,
+              "twin": 528.0,
+              "child": 216.0
             }
           }
         }

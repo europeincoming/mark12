@@ -106,26 +106,26 @@
             "3star": {
               "single": 2802.0,
               "twin": 1401.0,
-              "child": 582.816
+              "child": 382.59
             },
             "4star": {
               "single": 3252.0,
               "twin": 1626.0,
-              "child": 676.416
+              "child": 470.34
             }
           },
           "summer": {
             "date_start": "2026-04-01",
             "date_end": "2026-11-30",
             "3star": {
-              "single": 2918.75,
-              "twin": 1459.375,
-              "child": 607.1
+              "single": 2802.0,
+              "twin": 1401.0,
+              "child": 382.59
             },
             "4star": {
-              "single": 3387.5,
-              "twin": 1693.75,
-              "child": 704.6
+              "single": 3252.0,
+              "twin": 1626.0,
+              "child": 470.34
             }
           }
         },
@@ -134,28 +134,28 @@
             "date_start": "2025-11-01",
             "date_end": "2026-03-31",
             "3star": {
-              "single": 2568.5,
-              "twin": 1284.25,
-              "child": 534.248
+              "single": 2802.0,
+              "twin": 1401.0,
+              "child": 382.59
             },
             "4star": {
-              "single": 2981.0,
-              "twin": 1490.5,
-              "child": 620.048
+              "single": 3252.0,
+              "twin": 1626.0,
+              "child": 470.34
             }
           },
           "summer": {
             "date_start": "2026-04-01",
             "date_end": "2026-11-30",
             "3star": {
-              "single": 2685.25,
-              "twin": 1342.625,
-              "child": 558.532
+              "single": 2802.0,
+              "twin": 1401.0,
+              "child": 382.59
             },
             "4star": {
-              "single": 3116.5,
-              "twin": 1558.25,
-              "child": 648.232
+              "single": 3252.0,
+              "twin": 1626.0,
+              "child": 470.34
             }
           }
         }
