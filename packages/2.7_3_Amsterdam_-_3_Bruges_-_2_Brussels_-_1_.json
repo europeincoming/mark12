@@ -1,0 +1,203 @@
+{
+  "id": "2.7",
+  "region": "western-central-europe",
+  "title": "3 Amsterdam - 3 Bruges - 2 Brussels - 1 Maastricht - 1 Amsterdam",
+  "nights": 10,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Amsterdam",
+      "nights": 3,
+      "hotel_3star": "Holiday Inn Express Amsterdam - Sloterdijk Station",
+      "hotel_4star": "Radisson Hotel & Suites Amsterdam South",
+      "rate_type": "PI",
+      "rate_3star": 510,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Bruges",
+      "nights": 3,
+      "hotel_3star": "ibis Styles Brugge Centrum",
+      "hotel_4star": "Radisson Blu Hotel Bruges",
+      "rate_type": "PI",
+      "rate_3star": 495,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Brussels",
+      "nights": 2,
+      "hotel_3star": "Ibis Styles Brussels Centre Stephanie",
+      "hotel_4star": "NH Brussels Stéphanie",
+      "rate_type": "PI",
+      "rate_3star": 300,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Maastricht",
+      "nights": 1,
+      "hotel_3star": "Amrâth Hotel DuCasque",
+      "hotel_4star": "Amrâth Hotel DuCasque",
+      "rate_type": "PI",
+      "rate_3star": 170,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Amsterdam",
+      "nights": 1,
+      "hotel_3star": "Holiday Inn Express Amsterdam - Schiphol",
+      "hotel_4star": "Moxy Amsterdam Schiphol Airport",
+      "rate_type": "PI",
+      "rate_3star": 150,
+      "rate_4star": null,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "self_drive": {
+      "car_hire": {
+        "description": "Pickup rental car, Schiphol, one-way",
+        "rate": 700,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Fly in, pick up car at Schiphol",
+          "rate_type": "PI",
+          "rate": 700,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Fly into Schiphol, collect your rental car and park it — Amsterdam is best explored on foot. The Jordaan neighbourhood, the canals and Vondelpark reward an unhurried first evening.",
+        "Day 2": "A full day in Amsterdam. Anne Frank House, Van Gogh Museum, canal cruise or just wandering the nine streets. All optional.",
+        "Day 3": "Zaanse Schans windmills, Volendam harbour and a cheese farm visit. Back to Amsterdam for a final evening.",
+        "Day 4": "Drive south through Delft and The Hague before arriving in Bruges by evening. The medieval belfry and canal reflections are best seen at dusk.",
+        "Day 5": "A full day in Bruges on foot — the Belfry tower, the St John medieval hospital, the Begijnhof. One of the best-preserved medieval cities in Europe.",
+        "Day 6": "Day trip to Ypres. In Flanders Fields Museum, the WW1 trenches at Hill 62, and the Menin Gate Last Post ceremony at 8pm.",
+        "Day 7": "Drive via Ghent (half day — the Gravensteen castle, Graslei quay) to Brussels for the evening.",
+        "Day 8": "A full day in Brussels. The Grand Place, Atomium, Manneken Pis and the best moules-frites in Belgium.",
+        "Day 9": "Brussels to Maastricht via Leuven. Maastricht is the Netherlands' most Burgundian city — limestone caves, Vrijthof square, exceptional food.",
+        "Day 10": "Maastricht to Amsterdam. Return car at Schiphol. Fly home."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1770,
+              "twin": 885,
+              "child": 345
+            },
+            "4star": {
+              "single": 2148,
+              "twin": 1074,
+              "child": 419
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1844,
+              "twin": 922,
+              "child": 360
+            },
+            "4star": {
+              "single": 2238,
+              "twin": 1119,
+              "child": 436
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1623,
+              "twin": 811,
+              "child": 316
+            },
+            "4star": {
+              "single": 1969,
+              "twin": 985,
+              "child": 384
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1696,
+              "twin": 848,
+              "child": 331
+            },
+            "4star": {
+              "single": 2059,
+              "twin": 1029,
+              "child": 401
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "Amsterdam - Anne Frank Museum",
+      "rate": 0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Amsterdam - Van Gogh Museum",
+      "rate": 0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Amsterdam Canal Cruise",
+      "rate": 0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Bruges Museums card",
+      "rate": 0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Ypres - In the Flanders Fields Museum",
+      "rate": 0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Ghent city card",
+      "rate": 0,
+      "currency": "EUR"
+    },
+    {
+      "description": "Brussels - Chocolate Museum",
+      "rate": 0,
+      "currency": "EUR"
+    }
+  ],
+  "description": "Amsterdam's golden canals, Bruges' medieval belfry, Brussels' Art Nouveau grandeur and Maastricht's Burgundian charm on a self-drive through the Low Countries."
+}

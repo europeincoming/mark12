@@ -1,0 +1,245 @@
+{
+  "id": "1.6",
+  "region": "uk-ireland",
+  "title": "2 London - 1 Cheltenham - 1 Barnstaple - 2 Truro - 1 Plymouth - 1 Exeter - 1 Bournemouth - 1 London",
+  "nights": 10,
+  "currency": "GBP",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "London",
+      "nights": 2,
+      "hotel_3star": "ibis London Shepherds Bush – Hammersmith",
+      "hotel_4star": "Novotel London West",
+      "rate_type": "PI",
+      "rate_3star": 340,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "Cheltenham",
+      "nights": 1,
+      "hotel_3star": "Premier Inn Cheltenham North West",
+      "hotel_4star": "Leonardo Hotel Cheltenham",
+      "rate_type": "PI",
+      "rate_3star": 140,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "Barnstaple",
+      "nights": 1,
+      "hotel_3star": "Premier Inn Barnstaple",
+      "hotel_4star": "The Park Hotel",
+      "rate_type": "PI",
+      "rate_3star": 160,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "Truro",
+      "nights": 2,
+      "hotel_3star": "Premier Inn Truro",
+      "hotel_4star": "The Alverton",
+      "rate_type": "PI",
+      "rate_3star": 280,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "Plymouth",
+      "nights": 1,
+      "hotel_3star": "Premier Inn Plymouth City",
+      "hotel_4star": "Crowne Plaza Plymouth",
+      "rate_type": "PI",
+      "rate_3star": 140,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "Exeter",
+      "nights": 1,
+      "hotel_3star": "Holiday Inn Express Exeter - City Centre",
+      "hotel_4star": "Mercure Exeter Southgate Hotel",
+      "rate_type": "PI",
+      "rate_3star": 120,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "Bournemouth",
+      "nights": 1,
+      "hotel_3star": "Holiday Inn Bournemouth",
+      "hotel_4star": "The Cumberland Hotel",
+      "rate_type": "PI",
+      "rate_3star": 150,
+      "rate_4star": null,
+      "currency": "GBP"
+    },
+    {
+      "city": "London",
+      "nights": 1,
+      "hotel_3star": "Premier Inn Heathrow Airport - M4/J4",
+      "hotel_4star": "Hyatt Place London Heathrow Airport",
+      "rate_type": "PI",
+      "rate_3star": 130,
+      "rate_4star": null,
+      "currency": "GBP"
+    }
+  ],
+  "variants": {
+    "self_drive": {
+      "car_hire": {
+        "description": "Pickup rental car, SUV class, Automatic",
+        "rate": 650,
+        "currency": "GBP"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Airport arrival transfer to hotel",
+          "rate_type": "PI",
+          "rate": 110,
+          "currency": "GBP"
+        },
+        {
+          "day": "Day 2",
+          "description": "Pick up rental car, drive to Cotswolds",
+          "rate_type": "PI",
+          "rate": 650,
+          "currency": "GBP"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Arrive London. Explore Borough Market and the South Bank on foot. Stay Hammersmith/Shepherds Bush.",
+        "Day 2": "Pick up your rental car and head to the Cotswolds. Sunday roast in a village pub. Overnight Cheltenham.",
+        "Day 3": "Drive via Bath and Glastonbury to the north Devon coast. Woolacombe beach. Overnight Barnstaple.",
+        "Day 4": "Tintagel Castle — King Arthur's legendary birthplace — then south to St Ives. Overnight Truro.",
+        "Day 5": "Land's End, the Minack cliff-top theatre, Penzance and St Michael's Mount, Lizard Peninsula. Overnight Truro/Falmouth.",
+        "Day 6": "Alder Vineyard, Tavistock on Dartmoor, Plymouth Hoe, the Barbican and the Mayflower Steps. Overnight Plymouth.",
+        "Day 7": "Slapton Sands D-Day training beach, Dartmouth, Buckfast Abbey. Overnight Exeter.",
+        "Day 8": "Exeter Cathedral guided tour, the Jurassic Coast, Durdle Door. Overnight Bournemouth.",
+        "Day 9": "Bournemouth to London via Salisbury, Stonehenge and Windsor Castle.",
+        "Day 10": "Return rental car. Depart from London Heathrow."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1752,
+              "twin": 876,
+              "child": 342
+            },
+            "4star": {
+              "single": 2340,
+              "twin": 1170,
+              "child": 456
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1825,
+              "twin": 913,
+              "child": 356
+            },
+            "4star": {
+              "single": 2438,
+              "twin": 1219,
+              "child": 475
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": 1606,
+              "twin": 803,
+              "child": 313
+            },
+            "4star": {
+              "single": 2145,
+              "twin": 1073,
+              "child": 418
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": 1679,
+              "twin": 840,
+              "child": 327
+            },
+            "4star": {
+              "single": 2243,
+              "twin": 1121,
+              "child": 437
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "Roman Baths admission, Bath",
+      "rate": 29,
+      "currency": "GBP"
+    },
+    {
+      "description": "Glastonbury Abbey admission",
+      "rate": 15,
+      "currency": "GBP"
+    },
+    {
+      "description": "Polgoon vineyards tasting tour, 90 mins",
+      "rate": 22,
+      "currency": "GBP"
+    },
+    {
+      "description": "Minack Theatre admission",
+      "rate": 12,
+      "currency": "GBP"
+    },
+    {
+      "description": "Tintagel Castle admission",
+      "rate": 23,
+      "currency": "GBP"
+    },
+    {
+      "description": "Alder Vineyard tour, 90 mins",
+      "rate": 22,
+      "currency": "GBP"
+    },
+    {
+      "description": "Plymouth Gin Distillery tour",
+      "rate": 17,
+      "currency": "GBP"
+    },
+    {
+      "description": "Exeter Cathedral",
+      "rate": 14,
+      "currency": "GBP"
+    }
+  ],
+  "description": "England's secret southwest — the Cotswolds, King Arthur's Tintagel, Lands End, the Jurassic Coast, Stonehenge and Windsor on one spectacular self-drive loop."
+}

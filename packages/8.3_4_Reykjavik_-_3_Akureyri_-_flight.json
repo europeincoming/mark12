@@ -1,0 +1,101 @@
+{
+  "id": "8.3",
+  "region": "scandinavia",
+  "title": "4 Reykjavik - 3 Akureyri - flight",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "date_end": "2026-11-30"
+    }
+  ],
+  "hotels": [],
+  "variants": {
+    "regular_fit": {
+      "services": [],
+      "day_descriptions": {
+        "Day 1": "Arrive Reykjavik. Transfer to hotel. Evening in the capital.",
+        "Day 2": "Golden Circle full day: Þingvellir, Geysir, Gullfoss.",
+        "Day 3": "South Coast tour: waterfalls, black beach, glacier lagoon.",
+        "Day 4": "Blue Lagoon transfer. Afternoon free in Reykjavik.",
+        "Day 5": "Internal flight Reykjavik to Akureyri. Iceland's northern capital sits at the end of a long fjord. Midnight sun in summer.",
+        "Day 6": "Lake Myvatn geothermal area and Dimmuborgir lava formations day trip. Whale watching optional from Akureyri harbour.",
+        "Day 7": "Free day in Akureyri. Botanical garden, old town, optional horse riding.",
+        "Day 8": "Fly Akureyri to Keflavik international. Depart."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Reykjavik's Golden Circle and northern Iceland's whale-watching capital Akureyri in a seven-night fly-drive with an internal flight."
+}

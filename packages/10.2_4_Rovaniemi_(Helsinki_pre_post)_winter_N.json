@@ -1,0 +1,65 @@
+{
+  "id": "10.2",
+  "region": "scandinavia",
+  "title": "4 Rovaniemi (Helsinki pre/post), winter NY",
+  "nights": 4,
+  "currency": "EUR",
+  "winter_only": true,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "New Year",
+      "start": "2025-12-28",
+      "end": "2026-01-04"
+    }
+  ],
+  "hotels": [],
+  "variants": {
+    "regular_fit": {
+      "services": [],
+      "day_descriptions": {
+        "Day 1": "Fly Helsinki then onward to Rovaniemi. Transfer to your hotel. Evening in Santa's hometown — the Arctic Circle crossing is marked right at the airport. Overnight Rovaniemi.",
+        "Day 2": "Reindeer sleigh safari through the Arctic forest. Visit Santa's Village and cross the Arctic Circle officially. Overnight Rovaniemi.",
+        "Day 3": "Husky safari — drive a team of huskies through the taiga. Snowmobile experience. Northern Lights evening excursion. Overnight Rovaniemi.",
+        "Day 4": "New Year's Eve. Snowshoe walk or cross-country skiing by day. Midnight fireworks over the Kemijoki river. The Arctic sky in winter is extraordinary. Overnight Rovaniemi.",
+        "Day 5": "Transfer to Rovaniemi airport. Fly Helsinki for connection home."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-12-28",
+            "date_end": "2026-01-04",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-12-28",
+            "date_end": "2026-01-04",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Rovaniemi at New Year — Santa's hometown, reindeer sleigh rides, husky safaris and midnight fireworks under the Arctic sky."
+}

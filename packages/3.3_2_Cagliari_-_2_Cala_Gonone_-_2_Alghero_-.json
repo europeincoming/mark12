@@ -1,0 +1,143 @@
+{
+  "id": "3.3",
+  "region": "italy",
+  "title": "2 Cagliari - 2 Cala Gonone - 2 Alghero - 1 Olbia",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Cagliari",
+      "nights": 2,
+      "hotel_3star": "Italia Hotel or similar",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 250,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Cala Gonone",
+      "nights": 2,
+      "hotel_3star": "Club Esse Cala Gonone Beach Village",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 380,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Alghero",
+      "nights": 2,
+      "hotel_3star": "Hotel Catalunya",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 320,
+      "rate_4star": null,
+      "currency": "EUR"
+    },
+    {
+      "city": "Olbia",
+      "nights": 1,
+      "hotel_3star": "Hotel Martini Olbia",
+      "hotel_4star": null,
+      "rate_type": "PI",
+      "rate_3star": 180,
+      "rate_4star": null,
+      "currency": "EUR"
+    }
+  ],
+  "variants": {
+    "self_drive": {
+      "car_hire": {
+        "description": "One-way rental car, Cagliari to Olbia",
+        "rate": 480,
+        "currency": "EUR"
+      },
+      "services": [
+        {
+          "day": "Day 1",
+          "description": "Arrive Cagliari, pickup rental car at airport. One-way fee payable €75~",
+          "rate_type": "PI",
+          "rate": 480,
+          "currency": "EUR"
+        }
+      ],
+      "day_descriptions": {
+        "Day 1": "Arrive Cagliari, collect your one-way rental car. Explore the Castello district, Bastione Saint Remy and the harbour. Overnight Cagliari.",
+        "Day 2": "Visit Villasimius and its marine park. Afternoon at Cala Sinzias or Punta Molentis beach. Overnight Cagliari.",
+        "Day 3": "Drive the spectacular SS125 east coast to Cala Gonone. Photo stops at Arbatax's red rocks and the Baunei viewpoint. Overnight Cala Gonone.",
+        "Day 4": "Boat excursion into the Gulf of Orosei — sea caves, hidden beaches and turquoise water only reachable by sea. Overnight Cala Gonone.",
+        "Day 5": "Drive to Alghero via Bosa along the spectacular coastal road. En route: the Nuraghe Nuraddeo Bronze Age site and Bosa castle. Evening in Alghero's Spanish old town. Overnight Alghero.",
+        "Day 6": "Day at leisure in Alghero. Neptune's Grotto by boat or the 654 steps. Optional dolphin watching tour. Overnight Alghero.",
+        "Day 7": "Drive to Olbia via the Costa Smeralda. En route: Castelsardo, Porto Cervo harbour, Spiaggia del Principe beach. Overnight Olbia.",
+        "Day 8": "Proceed to Olbia airport. Drop off rental car."
+      },
+      "pricing": {
+        "Premium": {
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": null,
+              "twin": 678,
+              "child": 264
+            },
+            "4star": {
+              "single": 1413,
+              "twin": 706,
+              "child": 275
+            }
+          }
+        },
+        "Standard": {
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": null,
+              "twin": 622,
+              "child": 242
+            },
+            "4star": {
+              "single": 1300,
+              "twin": 650,
+              "child": 253
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [
+    {
+      "description": "Boat excursion, Marine Park of Villasimius, 3 hrs",
+      "rate": 76,
+      "currency": "EUR"
+    },
+    {
+      "description": "Boat excursion, Gulf of Orosei, 7 hrs",
+      "rate": 115,
+      "currency": "EUR"
+    },
+    {
+      "description": "Alghero ticket (13 attractions inc Neptune's cave)",
+      "rate": 40,
+      "currency": "EUR"
+    },
+    {
+      "description": "Dolphin watching & snorkeling, 4 hrs (June-Sept)",
+      "rate": 75,
+      "currency": "EUR"
+    }
+  ],
+  "description": "Sardinia's wild east coast, the Gulf of Orosei's sea caves, Alghero's Spanish old town and the Costa Smeralda on a week-long self-drive island circuit."
+}

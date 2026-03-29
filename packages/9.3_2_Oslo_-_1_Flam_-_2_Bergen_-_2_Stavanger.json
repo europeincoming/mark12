@@ -1,0 +1,101 @@
+{
+  "id": "9.3",
+  "region": "scandinavia",
+  "title": "2 Oslo - 1 Flam - 2 Bergen - 2 Stavanger",
+  "nights": 7,
+  "currency": "EUR",
+  "winter_only": false,
+  "pricing_locked": false,
+  "validity": [
+    {
+      "label": "Winter",
+      "start": "2025-11-01",
+      "end": "2026-03-31"
+    },
+    {
+      "label": "Summer",
+      "start": "2026-04-01",
+      "end": "2026-11-30"
+    }
+  ],
+  "hotels": [],
+  "variants": {
+    "regular_fit": {
+      "services": [],
+      "day_descriptions": {
+        "Day 1": "Arrive Oslo. Evening at leisure along the Aker Brygge waterfront.",
+        "Day 2": "Oslo city tour — Viking Ship Museum, Fram Museum, Vigeland Sculpture Park.",
+        "Day 3": "Train to Myrdal then the Flåm Railway to the Aurlandsfjord. Overnight Flåm.",
+        "Day 4": "Fjord cruise Flåm to Bergen through the Nærøyfjord. Arrive Bergen, explore Bryggen wharf.",
+        "Day 5": "Bergen at leisure — Fløibanen funicular, fish market, old quarter.",
+        "Day 6": "Ferry or flight to Stavanger. Norway's oil capital has a charming old town of wooden houses and the Stavanger Cathedral.",
+        "Day 7": "Preikestolen (Pulpit Rock) — a 604-metre flat-topped cliff above the Lysefjord, one of Norway's iconic hikes. Optional boat tour of the Lysefjord.",
+        "Day 8": "Depart Stavanger airport."
+      },
+      "pricing": {
+        "Premium": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          }
+        },
+        "Standard": {
+          "winter": {
+            "date_start": "2025-11-01",
+            "date_end": "2026-03-31",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          },
+          "summer": {
+            "date_start": "2026-04-01",
+            "date_end": "2026-11-30",
+            "3star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            },
+            "4star": {
+              "single": null,
+              "twin": null,
+              "child": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "optionals": [],
+  "description": "Oslo, the Flåm Railway, Bergen and Stavanger's oil history and Preikestolen cliff on a seven-night Norway circuit."
+}
